@@ -1,0 +1,234 @@
+[
+  {
+    "id": "rakuten-samsung",
+    "publisher": "Rakuten",
+    "kind": "캐시백",
+    "url": "https://www.rakuten.com/shop/samsung",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "topcashback-samsung",
+    "publisher": "TopCashback",
+    "kind": "캐시백",
+    "url": "https://www.topcashback.com/samsung/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "slickdeals-home",
+    "publisher": "Slickdeals",
+    "kind": "딜 커뮤니티",
+    "url": "https://slickdeals.net/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "rakuten-lg",
+    "publisher": "Rakuten",
+    "kind": "캐시백",
+    "url": "https://www.rakuten.com/shop/lg",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "idme-samsung-clean",
+    "publisher": "ID.me Shop",
+    "kind": "멤버십·캐시백",
+    "url": "https://shop.id.me/stores/9025-samsung",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "befrugal-samsung",
+    "publisher": "BeFrugal",
+    "kind": "캐시백",
+    "url": "https://www.befrugal.com/store/samsung/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "idme-ge",
+    "publisher": "ID.me Shop",
+    "kind": "멤버십·캐시백",
+    "url": "https://shop.id.me/stores/13076-the-ge-appliances-store",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "rtings-tv",
+    "publisher": "RTINGS",
+    "kind": "리뷰",
+    "url": "https://www.rtings.com/tv",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "tomsguide-home",
+    "publisher": "Tom’s Guide",
+    "kind": "리뷰",
+    "url": "https://www.tomsguide.com/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "techradar-home",
+    "publisher": "TechRadar",
+    "kind": "리뷰",
+    "url": "https://www.techradar.com/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "consumerreports-appliances",
+    "publisher": "Consumer Reports",
+    "kind": "리뷰",
+    "url": "https://www.consumerreports.org/appliances/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "capitalone-home",
+    "publisher": "Capital One Shopping",
+    "kind": "캐시백",
+    "url": "https://capitaloneshopping.com/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "honey-home",
+    "publisher": "Honey",
+    "kind": "쿠폰",
+    "url": "https://www.joinhoney.com/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "savings-samsung",
+    "publisher": "Savings.com",
+    "kind": "쿠폰",
+    "url": "https://www.savings.com/coupons/samsung.com",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "couponfollow-samsung",
+    "publisher": "CouponFollow",
+    "kind": "쿠폰",
+    "url": "https://couponfollow.com/site/samsung.com",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "goodhousekeeping-appliances",
+    "publisher": "Good Housekeeping",
+    "kind": "리뷰",
+    "url": "https://www.goodhousekeeping.com/appliances/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "thespruce-home",
+    "publisher": "The Spruce",
+    "kind": "리뷰",
+    "url": "https://www.thespruce.com/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "perksatwork-home",
+    "publisher": "Next Jump Perks",
+    "kind": "직원 복지몰",
+    "url": "https://www.perksatwork.com/login",
+    "access": "entry_only",
+    "enabled": true
+  },
+  {
+    "id": "perkspot-home",
+    "publisher": "PerkSpot",
+    "kind": "직원 복지몰",
+    "url": "https://www.perkspot.com/",
+    "access": "entry_only",
+    "enabled": true
+  },
+  {
+    "id": "govx-home-loaded",
+    "publisher": "GOVX",
+    "kind": "멤버십",
+    "url": "https://www.govx.com/",
+    "access": "entry_only",
+    "enabled": true
+  },
+  {
+    "id": "rebatesme-home",
+    "publisher": "RebatesMe",
+    "kind": "캐시백",
+    "url": "https://www.rebatesme.com/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "swagbucks-home",
+    "publisher": "Swagbucks",
+    "kind": "캐시백",
+    "url": "https://www.swagbucks.com/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "benefithub-home",
+    "publisher": "BenefitHub",
+    "kind": "직원 복지몰",
+    "url": "https://www.benefithub.com/",
+    "access": "entry_only",
+    "enabled": true
+  },
+  {
+    "id": "forbes-vetted",
+    "publisher": "Forbes Vetted",
+    "kind": "리뷰",
+    "url": "https://www.forbes.com/vetted/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "wired-home",
+    "publisher": "WIRED",
+    "kind": "리뷰",
+    "url": "https://www.wired.com/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "topcashback-dyson",
+    "publisher": "TopCashback",
+    "kind": "캐시백",
+    "url": "https://www.topcashback.com/dyson/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "topcashback-whirlpool",
+    "publisher": "TopCashback",
+    "kind": "캐시백",
+    "url": "https://www.topcashback.com/whirlpool/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "bradsdeals-home",
+    "publisher": "Brad’s Deals",
+    "kind": "딜",
+    "url": "https://www.bradsdeals.com/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "dealnews-home",
+    "publisher": "DealNews",
+    "kind": "딜",
+    "url": "https://www.dealnews.com/",
+    "access": "public",
+    "enabled": true
+  }
+]

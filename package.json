@@ -1,0 +1,13 @@
+{
+  "name": "us-publisher-pulse",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture": "node scripts/capture.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}
