@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: daily-publisher-capture
+  group: pages-deploy
   cancel-in-progress: false
 jobs:
   capture:

@@ -31,7 +31,7 @@ function render(){
  $('#comparison').innerHTML='';
  const verified=data.captures.filter(c=>c.usIpVerified).length;
  $('.notice b').textContent=verified===data.captures.length?'미국 IP 확인 환경의 공개 지면 표본':'미국 대상 지면 표본 · 미국 IP 접속은 '+(verified?'일부 확인':'미검증');
- $('#footerStatus').textContent=data.date+' · US IP 확인 '+verified+'/'+data.captures.length;
+ $('.notice p').textContent=verified===data.captures.length?'수집 서버의 접속 국가가 US로 확인됐습니다. 비로그인 표본이며 로그인·지역·개인화에 따라 화면이 다를 수 있습니다.':'수집 환경의 미국 IP 여부가 확인되지 않았거나 일부만 확인됐습니다. 미국 사용자 화면과 다를 수 있습니다.'; $('#footerStatus').textContent=data.date+' · US IP 확인 '+verified+'/'+data.captures.length;
  $('#scheduleText').textContent=data.collection.schedule+' · '+(data.collection.scheduleState==='active'?'일별 예약 활성화':'일별 설정 준비');
  gallery();registryRender();
 }
