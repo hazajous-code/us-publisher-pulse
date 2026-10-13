@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import {extractRate} from '../dist/insights.js';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
@@ -24,7 +25,7 @@ let next=0;
 async function worker(){
  while(next<targets.length){
   const i=next++,target=targets[i],page=await context.newPage();
-  const r={id:target.id,publisher:target.publisher,kind:target.kind,url:target.url,date,usDate:dateKey(new Date(),'America/New_York'),capturedAt:new Date().toISOString(),status:'error',screenshot:null,brands:[],usIpVerified:country==='US',country,market:country==='US'?'US IP 확인 · 비로그인':country?'접속국 '+country+' · US IP 아님':'US 대상 · IP 미검증',reviewed:false,note:'자동 수집: 혜택 값과 광고 여부는 검토 대기.',scope:'1440×1000 desktop viewport'};
+  const r={id:target.id,storeBrand:target.storeBrand||null,publisher:target.publisher,kind:target.kind,url:target.url,date,usDate:dateKey(new Date(),'America/New_York'),capturedAt:new Date().toISOString(),status:'error',screenshot:null,brands:[],usIpVerified:country==='US',country,market:country==='US'?'US IP 확인 · 비로그인':country?'접속국 '+country+' · US IP 아님':'US 대상 · IP 미검증',reviewed:false,note:'자동 수집: 혜택 값과 광고 여부는 검토 대기.',scope:'1440×1000 desktop viewport'};
   try{
    const response=await page.goto(target.url,{waitUntil:'domcontentloaded',timeout:30000});
    await page.waitForLoadState('load',{timeout:8000}).catch(()=>{});
@@ -38,6 +39,7 @@ async function worker(){
    const shot=folder+'/'+target.id+'.jpg';
    await page.screenshot({path:fileURLToPath(pathOf('dist/'+shot)),type:'jpeg',quality:80,fullPage:false,timeout:12000});
    r.screenshot=shot;
+   r.rateCandidate=extractRate(r);
    r.note=r.status==='captured'?'공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.':r.status==='entry_only'?'공개 입구만 확인. 회원 전용 혜택은 수집하지 않았습니다.':'접속 또는 표시 문제. 정상 경쟁사 지면으로 계산하지 않습니다.';
   }catch(error){r.status='error';r.brands=[];r.note='수집 실패: '+String(error.message).slice(0,160);r.title=target.publisher+' 수집 실패';}
   captures[i]=r;console.log(target.publisher+': '+r.status);

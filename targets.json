@@ -5,7 +5,8 @@
     "kind": "캐시백",
     "url": "https://www.rakuten.com/shop/samsung",
     "access": "public",
-    "enabled": true
+    "enabled": true,
+    "storeBrand": "Samsung"
   },
   {
     "id": "topcashback-samsung",
@@ -13,7 +14,8 @@
     "kind": "캐시백",
     "url": "https://www.topcashback.com/samsung/",
     "access": "public",
-    "enabled": true
+    "enabled": true,
+    "storeBrand": "Samsung"
   },
   {
     "id": "slickdeals-home",
@@ -29,7 +31,8 @@
     "kind": "캐시백",
     "url": "https://www.rakuten.com/shop/lg",
     "access": "public",
-    "enabled": true
+    "enabled": true,
+    "storeBrand": "LG"
   },
   {
     "id": "idme-samsung-clean",
@@ -45,7 +48,8 @@
     "kind": "캐시백",
     "url": "https://www.befrugal.com/store/samsung/",
     "access": "public",
-    "enabled": true
+    "enabled": true,
+    "storeBrand": "Samsung"
   },
   {
     "id": "idme-ge",
@@ -109,7 +113,8 @@
     "kind": "쿠폰",
     "url": "https://www.savings.com/coupons/samsung.com",
     "access": "public",
-    "enabled": true
+    "enabled": true,
+    "storeBrand": "Samsung"
   },
   {
     "id": "couponfollow-samsung",
@@ -117,7 +122,8 @@
     "kind": "쿠폰",
     "url": "https://couponfollow.com/site/samsung.com",
     "access": "public",
-    "enabled": true
+    "enabled": true,
+    "storeBrand": "Samsung"
   },
   {
     "id": "goodhousekeeping-appliances",
@@ -205,7 +211,8 @@
     "kind": "캐시백",
     "url": "https://www.topcashback.com/dyson/",
     "access": "public",
-    "enabled": true
+    "enabled": true,
+    "storeBrand": "Dyson"
   },
   {
     "id": "topcashback-whirlpool",
@@ -213,7 +220,8 @@
     "kind": "캐시백",
     "url": "https://www.topcashback.com/whirlpool/",
     "access": "public",
-    "enabled": true
+    "enabled": true,
+    "storeBrand": "Whirlpool"
   },
   {
     "id": "bradsdeals-home",
@@ -228,6 +236,105 @@
     "publisher": "DealNews",
     "kind": "딜",
     "url": "https://www.dealnews.com/",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "rakuten-lgpartnerstore",
+    "publisher": "Rakuten",
+    "storeBrand": "LG Partner Store",
+    "url": "https://www.rakuten.com/shop/lgpartnerstore",
+    "kind": "캐시백",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "rakuten-ge",
+    "publisher": "Rakuten",
+    "storeBrand": "GE Appliances",
+    "url": "https://www.rakuten.com/shop/geappliances",
+    "kind": "캐시백",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "rakuten-whirlpool",
+    "publisher": "Rakuten",
+    "storeBrand": "Whirlpool",
+    "url": "https://www.rakuten.com/shop/whirlpool",
+    "kind": "캐시백",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "rakuten-frigidaire",
+    "publisher": "Rakuten",
+    "storeBrand": "Frigidaire",
+    "url": "https://www.rakuten.com/shop/frigidaire",
+    "kind": "캐시백",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "rakuten-sony",
+    "publisher": "Rakuten",
+    "storeBrand": "Sony",
+    "url": "https://www.rakuten.com/shop/sonyelectronics",
+    "kind": "캐시백",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "topcashback-lg",
+    "publisher": "TopCashback",
+    "storeBrand": "LG",
+    "url": "https://www.topcashback.com/lg-electronics/",
+    "kind": "캐시백",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "topcashback-ge",
+    "publisher": "TopCashback",
+    "storeBrand": "GE Appliances",
+    "url": "https://www.topcashback.com/ge-appliances/",
+    "kind": "캐시백",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "capitalone-lg",
+    "publisher": "Capital One Shopping",
+    "storeBrand": "LG",
+    "url": "https://capitaloneshopping.com/s/lg.com/coupon",
+    "kind": "리워드",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "capitalone-samsung",
+    "publisher": "Capital One Shopping",
+    "storeBrand": "Samsung",
+    "url": "https://capitaloneshopping.com/s/samsung.com/coupon",
+    "kind": "리워드",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "capitalone-ge",
+    "publisher": "Capital One Shopping",
+    "storeBrand": "GE Appliances",
+    "url": "https://capitaloneshopping.com/s/geappliances.com/coupon",
+    "kind": "리워드",
+    "access": "public",
+    "enabled": true
+  },
+  {
+    "id": "capitalone-whirlpool",
+    "publisher": "Capital One Shopping",
+    "storeBrand": "Whirlpool",
+    "url": "https://capitaloneshopping.com/s/whirlpool.com/coupon",
+    "kind": "리워드",
     "access": "public",
     "enabled": true
   }

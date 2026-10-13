@@ -46,3 +46,9 @@ Serve dist/ with any static HTTP server; node scripts/serve.mjs provides a local
 ## Operating checks
 
 Inspect Actions, then the new date in the dashboard. Failed captures never count as successful content observations. A first-day dataset has no prior-day change metric. Screenshots retain publisher branding and link to the original source; the dashboard records observations rather than redistributing entire articles.
+
+## LG comparison update (2026-10-13)
+
+The overview compares LG and competitors within the same publisher and benefit type. Maximum rates stay separate from ordinary rates; displayed percentage-point differences do not establish identical purchase eligibility. Cashback candidates come only from explicit Rakuten/BeFrugal brand-store titles and are labelled unreviewed. Historical reviewed values take precedence. Coupon discounts and membership offers remain separate. Missing observations never become zero rates or ended offers.
+
+Publisher and brand filters affect the overview, rate history and capture board. Coverage retains the complete source-name register. The last 14 observation dates are displayed with links to dated screenshots. Eleven additional brand-store targets are configured for the next daily collection; historical snapshots are unchanged. Run npm test for comparison safeguards.
