@@ -52,3 +52,7 @@ Inspect Actions, then the new date in the dashboard. Failed captures never count
 The overview compares LG and competitors within the same publisher and benefit type. Maximum rates stay separate from ordinary rates; displayed percentage-point differences do not establish identical purchase eligibility. Cashback candidates come only from explicit Rakuten/BeFrugal brand-store titles and are labelled unreviewed. Historical reviewed values take precedence. Coupon discounts and membership offers remain separate. Missing observations never become zero rates or ended offers.
 
 Publisher and brand filters affect the overview, rate history and capture board. Coverage retains the complete source-name register. The last 14 observation dates are displayed with links to dated screenshots. Eleven additional brand-store targets are configured for the next daily collection; historical snapshots are unchanged. Run npm test for comparison safeguards.
+
+## Private tracker reconciliation
+
+The Tracker tab reads tab-separated .txt/.tsv files or pasted tables in browser memory. It never uploads or persists the table. Only placement-identification fields are retained; commercial metrics are discarded. Reconciliation uses all archived snapshots and defaults to US Eastern capture dates. Alias matching is not CID verification. Brand/date overlap is a review candidate, never proof of paid placement. Email/app/member placements require separate evidence. Raw attachments and local reports stay outside dist in ignored .artifacts.

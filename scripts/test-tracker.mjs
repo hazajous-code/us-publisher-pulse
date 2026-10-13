@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {parseTSV,reconcile,dateValue} from '../dist/tracker-core.js';
+const header='CID\tPublisher\tQuarter\tStart Date\tEnd Date\tPlacement Details\tOBS/PS\n';
+const rows=parseTSV(header+'1\tRakuten\tQ4 2026\t10/12\t10-14\t"Double\nCash Back"\tOBS');
+assert.equal(rows.length,1);assert.equal(rows[0].placement,'Double\nCash Back');
+assert.equal(dateValue('2/30/26',2026),null);assert.equal(dateValue('10-31',2026),'2026-10-31');
+const snapshots=[{date:'2026-10-13',captures:[{id:'r',publisher:'Rakuten',usDate:'2026-10-12',status:'captured',screenshot:'r.jpg',brands:['LG']}]}];
+assert.equal(reconcile(rows,snapshots)[0].status,'candidate');
+assert.equal(reconcile([{...rows[0],placement:'Email'}],snapshots)[0].status,'private');
+assert.equal(reconcile([{...rows[0],start:'10/13',end:'10/14'}],snapshots)[0].status,'future');
+assert.equal(reconcile([{...rows[0],start:'10/13',end:'10/14'}],snapshots,{basis:'kst'})[0].status,'candidate');
+assert.equal(reconcile([{...rows[0],start:'10/1',end:'10/2'}],snapshots)[0].status,'outside');
+assert.equal(reconcile(rows,[{date:'2026-10-13',captures:[{...snapshots[0].captures[0],status:'challenge'}]}])[0].status,'blocked');
+assert.equal(reconcile(rows,snapshots,{brand:'Samsung'})[0].status,'publisher');
+assert.equal(reconcile([{...rows[0],publisher:'Unrelated'}],snapshots)[0].status,'unmapped');
+assert.throws(()=>parseTSV('Publisher\tStart Date\nx\t10/1'));
+console.log('Tracker: quoted multiline, date validation, US/KST boundary and evidence tiers passed.');
