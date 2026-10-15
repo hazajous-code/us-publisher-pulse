@@ -25,7 +25,8 @@ function draw(){
  const pages=selected.pages.filter(p=>!brand||p.brand===brand);
  const summary=['LG','Samsung'].map(b=>{
  const ps=selected.pages.filter(p=>p.brand===b),ok=ps.filter(p=>p.status==='captured'),connections=[...new Set(ok.flatMap(p=>publisherLinks(p,publisher).map(l=>l.capture.publisher)))];
- return '<div class="official-brief"><span class="tag">'+b+' US</span><h3>'+ok.length+' / '+ps.length+'개 공식 지면 수집</h3><p>'+ok.reduce((n,p)=>n+p.promotions.length,0)+'개 혜택 문구 후보 · '+connections.length+'개 퍼블리셔 연결 후보</p><small>'+esc(connections.join(' · ')||'같은 미국 동부 날짜의 브랜드 지면 없음')+'</small><p class="muted">공식몰 '+selected.date+' / 지면 '+publisher.date+' · 합산 혜택·중복 적용 미확인</p></div>';
+ const highlights=[...new Set(ok.flatMap(p=>p.promotions.filter(o=>/appliance|refrigerator|washer|dryer|dishwasher|bundle/i.test(o.text)).map(o=>o.text)))].slice(0,2);
+ return '<div class="official-brief"><span class="tag">'+b+' US</span><h3>'+ok.length+' / '+ps.length+'개 공식 지면 수집</h3><ul>'+highlights.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ul><p>'+ok.reduce((n,p)=>n+p.promotions.length,0)+'개 혜택 문구 후보 · '+connections.length+'개 퍼블리셔 연결 후보</p><small>'+esc(connections.join(' · ')||'같은 미국 동부 날짜의 브랜드 지면 없음')+'</small><p class="muted">공식몰 '+selected.date+' / 지면 '+publisher.date+' · 자동 추출 / 합산 혜택·중복 적용 미확인</p></div>';
  }).join('');
  $('#officialSummary').innerHTML=summary;
  $('#officialCards').innerHTML=pages.map(p=>{

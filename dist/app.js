@@ -1,4 +1,4 @@
-import {renderOfficial,initOfficial} from './official.js?v=20261015c';
+import {renderOfficial,initOfficial} from './official.js?v=20261015d';
 import {initTracker} from './tracker.js';
 import {labels as trackerLabels} from './tracker-core.js';
 import {offersFor,lgDelta,rateChanges} from './insights.js';
