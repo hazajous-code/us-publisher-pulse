@@ -25,7 +25,9 @@ jobs:
           US_PROXY_SERVER: ${{ secrets.US_PROXY_SERVER }}
           US_PROXY_USERNAME: ${{ secrets.US_PROXY_USERNAME }}
           US_PROXY_PASSWORD: ${{ secrets.US_PROXY_PASSWORD }}
-        run: npm run capture
+        run: |
+          npm run capture
+          node scripts/capture-official.mjs
       - name: Check snapshot integrity
         run: npm run verify
       - name: Save dated evidence

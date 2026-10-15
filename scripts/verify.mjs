@@ -17,3 +17,15 @@ for(const date of dates){
  assert(!/cj매출|커미션|ga매출|ROAS|고객명|order.?id/i.test(JSON.stringify(d)));
  console.log(date+': '+d.captures.length+' outcomes, '+d.activities.length+' reviewed signals, 275 source names verified.');
 }
+
+const officialIndex=JSON.parse(await fs.readFile('dist/data/official/index.json','utf8'));
+for(const date of officialIndex.dates){
+ const d=JSON.parse(await fs.readFile('dist/data/official/'+date+'.json','utf8'));assert.equal(d.date,date);assert.equal(d.pages.length,4);
+ for(const p of d.pages){
+  assert(['LG','Samsung'].includes(p.brand));assert(Number.isFinite(Date.parse(p.capturedAt)));
+  assert(['captured','error','challenge','render_failed','wrong_market'].includes(p.status));
+  assert(p.promotions.length<=12);if(p.status!=='captured')assert.equal(p.promotions.length,0);
+  if(p.screenshot){assert.match(p.screenshot,/^captures\/official\/[\w/.-]+\.jpg$/);assert(!p.screenshot.includes('..'));const b=await fs.readFile('dist/'+p.screenshot);assert(b.length>100);assert.equal(b[0],255);assert.equal(b[1],216)}
+ }
+ console.log(date+': official store evidence verified.');
+}

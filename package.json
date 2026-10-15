@@ -6,7 +6,7 @@
   "scripts": {
     "capture": "node scripts/capture.mjs",
     "verify": "node scripts/verify.mjs",
-    "test": "node scripts/test-insights.mjs && node scripts/test-tracker.mjs"
+    "test": "node scripts/test-insights.mjs && node scripts/test-tracker.mjs && node scripts/test-official.mjs"
   },
   "dependencies": {
     "playwright": "1.56.1"

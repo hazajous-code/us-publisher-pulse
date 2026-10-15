@@ -1,3 +1,4 @@
+import {renderOfficial,initOfficial} from './official.js';
 import {initTracker} from './tracker.js';
 import {labels as trackerLabels} from './tracker-core.js';
 import {offersFor,lgDelta,rateChanges} from './insights.js';
@@ -9,7 +10,7 @@ const modes={registered:'선정 지면 있음',app_extension:'앱·확장프로�
 const types={cashback:'캐시백',membership:'자격 할인',deal:'상품 딜',editorial:'편집 콘텐츠'};
 const kst=t=>new Intl.DateTimeFormat('ko-KR',{timeZone:'Asia/Seoul',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(t));
 function toast(t){$('#toast').textContent=t;$('#toast').hidden=false;setTimeout(()=>$('#toast').hidden=true,5000)}
-function view(v){if(!['overview','captures','coverage','method','tracker'].includes(v))v='overview';currentView=v;document.querySelectorAll('.view').forEach(el=>el.hidden=el.id!==v);document.querySelectorAll('[data-view]').forEach(el=>el.classList.toggle('active',el.dataset.view===v));$('#viewTitle').textContent={overview:'LG와 경쟁사, 오늘 무엇이 달라졌나요?',captures:'실제 화면으로 확인하는 지면',coverage:'얼마나 확인했고, 무엇이 남았나요?',tracker:'예정된 지면, 실제로 수집됐나요?',method:'관측의 기준을 투명하게'}[v];$('#subtitle').textContent={overview:'같은 퍼블리셔의 혜택을 비교하고, 변화를 실제 화면으로 확인하세요.',captures:'수집 성공과 실패, 공개 입구까지 같은 기준으로 기록합니다.',coverage:'기존 분석 대상명 275개를 수집 결과와 대조합니다.',tracker:'집행 예정표의 각 행을 캡처 근거와 대조합니다.',method:'공개 화면, 미국 접속 검증, 일별 기록의 범위와 한계.'}[v];history.replaceState(null,'','#'+v);}
+function view(v){if(!['overview','captures','coverage','method','tracker','official'].includes(v))v='overview';currentView=v;document.querySelectorAll('.view').forEach(el=>el.hidden=el.id!==v);document.querySelectorAll('[data-view]').forEach(el=>el.classList.toggle('active',el.dataset.view===v));$('#viewTitle').textContent={overview:'LG와 경쟁사, 오늘 무엇이 달라졌나요?',captures:'실제 화면으로 확인하는 지면',coverage:'얼마나 확인했고, 무엇이 남았나요?',official:'공식몰 혜택과 퍼블리셔 지면을 함께',tracker:'예정된 지면, 실제로 수집됐나요?',method:'관측의 기준을 투명하게'}[v];$('#subtitle').textContent={overview:'같은 퍼블리셔의 혜택을 비교하고, 변화를 실제 화면으로 확인하세요.',captures:'수집 성공과 실패, 공개 입구까지 같은 기준으로 기록합니다.',coverage:'기존 분석 대상명 275개를 수집 결과와 대조합니다.',official:'LG·Samsung 프로모션을 확인하고 같은 날 관측된 지면과 연결하세요.',tracker:'집행 예정표의 각 행을 캡처 근거와 대조합니다.',method:'공개 화면, 미국 접속 검증, 일별 기록의 범위와 한계.'}[v];history.replaceState(null,'','#'+v);}
 document.querySelectorAll('[data-view],[data-go]').forEach(el=>el.addEventListener('click',e=>{e.preventDefault();view(el.dataset.view||el.dataset.go)}));
 function captureCard(c){return '<button class="capture-card" data-id="'+esc(c.id)+'" aria-label="'+esc(c.publisher+' '+c.title+' 캡처 상세')+'"><div class="capture-image">'+(c.screenshot?'<img loading="lazy" src="./'+esc(c.screenshot)+'" alt="'+esc(c.publisher+' 실제 수집 화면')+'">':'<div class="no-image">⊘<span>이미지 미수집</span></div>')+'<span class="status '+(c.status==='captured'?'':'warning')+'">'+esc(statuses[c.status]||c.status)+'</span></div><div class="card-body"><div class="card-top"><h3>'+esc(c.publisher)+'</h3><span>'+esc(c.kind)+'</span></div><p>'+esc(c.note)+'</p><div class="card-bottom">'+c.brands.slice(0,3).map(b=>'<span class="tag">'+esc(b)+'</span>').join('')+'<time>'+kst(c.capturedAt)+' KST ↗</time></div></div></button>'}
 
@@ -49,7 +50,7 @@ function render(){
  $('.notice p').textContent=verified===data.captures.length?'접속 국가 US 확인 · 비로그인 표본이며 개인화에 따라 화면이 다를 수 있습니다.':'접속 국가가 확인되지 않은 결과를 미국 사용자 화면으로 확정하지 않습니다.';
  $('#footerStatus').textContent=data.date+' · US IP 확인 '+verified+'/'+data.captures.length;
  $('#scheduleText').textContent=data.collection.schedule+' · 현재 일별 예약 활성화';
- gallery();registryRender();renderTrend();
+ gallery();registryRender();renderTrend();renderOfficial(data);
 }
 function renderTrend(){
  const rows=historyData.filter(d=>d.date<=data.date).sort((a,b)=>a.date.localeCompare(b.date)).slice(-14), p=$('#globalPublisher').value,b=$('#globalBrand').value;
@@ -87,3 +88,5 @@ document.addEventListener('click',async e=>{const el=e.target.closest('[data-his
 
 $('#trackerStatus').innerHTML='<option value="">전체 상태</option>'+Object.entries(trackerLabels).map(([v,l])=>'<option value="'+v+'">'+l+'</option>').join('');
 initTracker();
+
+initOfficial();
