@@ -8,3 +8,5 @@ assert.equal(publisherLinks(p,{captures:[{...c,usDate:'2026-10-14'}]}).length,0)
 assert.equal(publisherLinks(p,{captures:[{...c,brands:['Samsung']}]}).length,0);
 assert.equal(publisherLinks({...p,status:'challenge'},{captures:[c]}).length,0);
 console.log('Official promotion extraction and same-brand/same-US-date evidence tests passed.');
+
+assert.equal(publisherLinks(p,{captures:[{...c,storeBrand:'LG Partner Store'}]}).length,0);

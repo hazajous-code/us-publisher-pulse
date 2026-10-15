@@ -17,7 +17,7 @@ export function promoLines(text){
 }
 export function publisherLinks(official,publisherData){
  if(official.status!=='captured')return [];
- return publisherData.captures.filter(c=>c.status==='captured'&&c.screenshot&&c.usDate===official.usDate&&(c.storeBrand===official.brand||c.brands?.includes(official.brand))).map(c=>{
+ return publisherData.captures.filter(c=>c.status==='captured'&&c.screenshot&&c.usDate===official.usDate&&(c.storeBrand?c.storeBrand===official.brand:c.brands?.includes(official.brand))).map(c=>{
  const categories=categoryOf([c.title,c.note,...(publisherData.activities||[]).filter(a=>a.captureId===c.id).map(a=>a.summary+' '+a.category)].join(' '));
  const common=categories.filter(k=>official.promotions.some(p=>p.categories.includes(k)));
  return {capture:c,common,level:common.length?'브랜드·관측일·상품군 후보':'브랜드·관측일 후보'};

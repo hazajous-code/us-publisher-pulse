@@ -1,4 +1,4 @@
-import {publisherLinks} from './official-core.js';
+import {publisherLinks} from './official-core.js?v=20261015c';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let selected=null,older=null,publisher=null,version=0;
 const names={captured:'공개 화면 수집',error:'수집 실패',challenge:'보안 확인 화면',render_failed:'표시 불완전',wrong_market:'미국 경로 확인 실패'};
@@ -34,7 +34,7 @@ function draw(){
  const added=old&&p.status==='captured'?p.promotions.filter(o=>!old.promotions.some(x=>x.text===o.text)).length:null;
  return '<article class="panel official-card"><div class="section-top"><div><span class="eyebrow">'+p.brand+' · US OFFICIAL</span><h2>'+esc(p.label)+'</h2></div><span class="badge">'+esc(names[p.status]||p.status)+'</span></div><p class="muted">'+esc(p.capturedAt)+' · 미국 날짜 '+esc(p.usDate)+' · '+(p.usIpVerified?'US IP 확인':'US IP 미검증')+'</p>'+
  (p.screenshot?'<a href="./'+esc(p.screenshot)+'" target="_blank" rel="noopener noreferrer"><img class="official-shot" loading="lazy" src="./'+esc(p.screenshot)+'" alt="'+esc(p.label)+' 실제 캡처"></a>':'')+
- '<div class="official-links">'+evidence(p)+'</div><p class="muted">'+(added===null?'문구 변화 비교 대기':older.date+' 대비 추가·변경된 문구 후보 '+added+'개 · 노출 순서·동적 콘텐츠 영향 포함')+'</p>'+
+ '<div class="official-links">'+evidence(p)+'</div><p class="muted">동의 창·지연 로딩이 캡처에 포함될 수 있습니다. 혜택 문구는 페이지 본문에서 추출한 검토 후보입니다.</p><p class="muted">'+(added===null?'문구 변화 비교 대기':older.date+' 대비 추가·변경된 문구 후보 '+added+'개 · 노출 순서·동적 콘텐츠 영향 포함')+'</p>'+
  (promos.length?promos.map(o=>'<details class="promo-item"><summary><span class="tag pending">'+esc(o.type)+'</span> '+esc(o.text)+'</summary><p>'+esc(o.context)+'</p><small>'+esc(o.categories.join(' · ')||'상품군 미분류')+' · 자동 추출 / 적용 기간·모델·제외 조건 검토 필요</small></details>').join(''):'<p class="muted">'+(p.status==='captured'?'필터에 맞는 혜택 문구 없음. 원문·캡처를 확인하세요.':'접근·표시 문제로 혜택을 추출하지 않았습니다.')+'</p>')+'</article>';
  }).join('');
  $('#officialConnections').innerHTML=pages.filter(p=>p.status==='captured').map(p=>{

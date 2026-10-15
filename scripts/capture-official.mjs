@@ -26,6 +26,8 @@ try{
  const r=await page.goto(target.url,{waitUntil:'domcontentloaded',timeout:45000});
  await page.waitForLoadState('load',{timeout:10000}).catch(()=>{});
  await page.locator('body').waitFor({state:'visible',timeout:10000});
+ for(let step=0;step<12;step++){await page.evaluate(()=>window.scrollBy(0,850));await page.waitForTimeout(250)}
+ await page.evaluate(()=>window.scrollTo(0,0));
  let body=await page.locator('body').innerText({timeout:10000});
  if(body.length<200){await page.waitForFunction(()=>document.body?.innerText.length>200,{},{timeout:8000}).catch(()=>{});body=await page.locator('body').innerText()}
  record.url=page.url();record.title=await page.title();record.httpStatus=r?.status()||0;
