@@ -5,7 +5,7 @@ const names={captured:'공개 화면 수집',error:'수집 실패',challenge:'�
 export async function renderOfficial(data){
  publisher=data;const token=++version;
  try{
- const r=await fetch('./data/official/index.json');if(!r.ok)throw Error();const dates=(await r.json()).dates.filter(d=>d<=data.date).sort();
+ const r=await fetch('./data/official/index.json',{cache:'no-store'});if(!r.ok)throw Error();const dates=(await r.json()).dates.filter(d=>d<=data.date).sort();
  const date=dates.at(-1);
  if(!date){selected=null;older=null;draw();return}
  const response=await fetch('./data/official/'+date+'.json');if(!response.ok)throw Error();const current=await response.json();
