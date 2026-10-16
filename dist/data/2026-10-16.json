@@ -1,0 +1,3680 @@
+{
+  "version": 1,
+  "date": "2026-10-16",
+  "timezone": "Asia/Seoul",
+  "marketTimezone": "America/New_York",
+  "generatedAt": "2026-10-16T00:02:39.035Z",
+  "source": {
+    "name": "기존 퍼블리셔별 집계",
+    "file": "check/_agg/e_pub.csv",
+    "rowCount": 275,
+    "scope": "이 집계의 275개 원문명 기준; 모든 과거 파일 전체를 포괄한다고 단정하지 않음"
+  },
+  "collection": {
+    "method": "Playwright 자동 일별 수집",
+    "country": "US",
+    "usIpVerified": true,
+    "viewport": "1440 × 1000",
+    "schedule": "GitHub Actions 매일 22:00 UTC (다음날 07:00 KST)",
+    "scheduleState": "active"
+  },
+  "captures": [
+    {
+      "id": "rakuten-samsung",
+      "storeBrand": "Samsung",
+      "publisher": "Rakuten",
+      "kind": "캐시백",
+      "url": "https://www.rakuten.com/shop/samsung",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:01:36.058Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/rakuten-samsung.jpg",
+      "brands": [
+        "Samsung"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Samsung Coupons, Promo Codes & Up to 2% Cash Back - October 2026 | Rakuten",
+      "httpStatus": 200,
+      "sha256": "fc36b8fcf1e7512d8aab22d366ef79a42bc1d4752f3a8a86163f0ac41cc5025a",
+      "rateCandidate": {
+        "captureId": "rakuten-samsung",
+        "brand": "Samsung",
+        "type": "cashback",
+        "rate": 2,
+        "isMaximum": true,
+        "value": "최대 2%",
+        "conditions": "화면 제목에서 자동 추출 · 적용 품목·제외 조건 미검토",
+        "verified": false,
+        "evidence": "Up to 2% Cash Back",
+        "category": "브랜드 상점",
+        "storeClass": "public"
+      }
+    },
+    {
+      "id": "topcashback-samsung",
+      "storeBrand": "Samsung",
+      "publisher": "TopCashback",
+      "kind": "캐시백",
+      "url": "https://www.topcashback.com/samsung/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:01:36.052Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/topcashback-samsung.jpg",
+      "brands": [
+        "Samsung"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Samsung Offers, Cash Back, Discounts & Coupons",
+      "httpStatus": 200,
+      "sha256": "9ad49806800ea7662e19400027914762f9df9a851099e671ffdf5a7c35816b9b",
+      "rateCandidate": null
+    },
+    {
+      "id": "slickdeals-home",
+      "storeBrand": null,
+      "publisher": "Slickdeals",
+      "kind": "딜 커뮤니티",
+      "url": "https://slickdeals.net/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:01:36.046Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/slickdeals-home.jpg",
+      "brands": [
+        "Samsung",
+        "LG",
+        "Hisense",
+        "Shark",
+        "Frigidaire",
+        "KitchenAid"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Slickdeals: The Best Deals, Coupons, Promo Codes & Discounts",
+      "httpStatus": 200,
+      "sha256": "aef7345fbb96b4a9b3ed0a976283ab9d927d1ac14bab6d58e871af91558aae9b",
+      "rateCandidate": null
+    },
+    {
+      "id": "rakuten-lg",
+      "storeBrand": "LG",
+      "publisher": "Rakuten",
+      "kind": "캐시백",
+      "url": "https://www.rakuten.com/shop/lg",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:01:39.747Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/rakuten-lg.jpg",
+      "brands": [
+        "LG"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "LG Electronics Coupons, Promo Codes & 3% Cash Back - October 2026 | Rakuten",
+      "httpStatus": 200,
+      "sha256": "e135952cdb9a31ad31e7330049adb0423175e12743a95e7cd946c425082df4eb",
+      "rateCandidate": {
+        "captureId": "rakuten-lg",
+        "brand": "LG",
+        "type": "cashback",
+        "rate": 3,
+        "isMaximum": false,
+        "value": "3%",
+        "conditions": "화면 제목에서 자동 추출 · 적용 품목·제외 조건 미검토",
+        "verified": false,
+        "evidence": "3% Cash Back",
+        "category": "브랜드 상점",
+        "storeClass": "public"
+      }
+    },
+    {
+      "id": "idme-samsung-clean",
+      "storeBrand": null,
+      "publisher": "ID.me Shop",
+      "kind": "멤버십·캐시백",
+      "url": "https://shop.id.me/stores/9025-samsung",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:01:44.473Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/idme-samsung-clean.jpg",
+      "brands": [
+        "Samsung",
+        "LG",
+        "GE Appliances"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Samsung Discounts for Military, Nurses, & More | ID.me Shop",
+      "httpStatus": 200,
+      "sha256": "61ca868a82110d307afd22f28f7f2a868951dced5862042d05d651b243a567a1",
+      "rateCandidate": null
+    },
+    {
+      "id": "befrugal-samsung",
+      "storeBrand": "Samsung",
+      "publisher": "BeFrugal",
+      "kind": "캐시백",
+      "url": "https://www.befrugal.com/store/samsung/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:01:44.946Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/befrugal-samsung.jpg",
+      "brands": [
+        "Samsung"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Samsung 1.2% Cash Back + 29 Coupons, Promo Codes & Deals",
+      "httpStatus": 200,
+      "sha256": "915a1b2d1ee720381a196d77665e80e2c9c20b728e21d9b41ade63c63056782a",
+      "rateCandidate": {
+        "captureId": "befrugal-samsung",
+        "brand": "Samsung",
+        "type": "cashback",
+        "rate": 1.2,
+        "isMaximum": false,
+        "value": "1.2%",
+        "conditions": "화면 제목에서 자동 추출 · 적용 품목·제외 조건 미검토",
+        "verified": false,
+        "evidence": "1.2% Cash Back",
+        "category": "브랜드 상점",
+        "storeClass": "public"
+      }
+    },
+    {
+      "id": "idme-ge",
+      "storeBrand": null,
+      "publisher": "ID.me Shop",
+      "kind": "멤버십·캐시백",
+      "url": "https://shop.id.me/stores/13076-the-ge-appliances-store",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:01:45.468Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/idme-ge.jpg",
+      "brands": [
+        "Samsung",
+        "LG",
+        "GE Appliances"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "The GE Appliances Store Discounts and Cash Back for Military, Nurses, & More | ID.me Shop",
+      "httpStatus": 200,
+      "sha256": "3b7449a3d518f3e5895d23869fa5d1d8856f66cbab41efb8a963ea2df9c03e06",
+      "rateCandidate": null
+    },
+    {
+      "id": "rtings-tv",
+      "storeBrand": null,
+      "publisher": "RTINGS",
+      "kind": "리뷰",
+      "url": "https://www.rtings.com/tv",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:01:47.449Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/rtings-tv.jpg",
+      "brands": [
+        "Samsung",
+        "LG",
+        "Hisense",
+        "TCL",
+        "Sony"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "TV Reviews & Recommendations - RTINGS.com",
+      "httpStatus": 200,
+      "sha256": "3a0c54e3941cdedd6c281d2c013f279f8e8a17250ddd49ff1d0df49264cbea1b",
+      "rateCandidate": null
+    },
+    {
+      "id": "tomsguide-home",
+      "storeBrand": null,
+      "publisher": "Tom’s Guide",
+      "kind": "리뷰",
+      "url": "https://www.tomsguide.com/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:01:47.753Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/tomsguide-home.jpg",
+      "brands": [
+        "LG"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Tom's Guide | Tech Product Reviews, Top Picks and How To",
+      "httpStatus": 200,
+      "sha256": "9f230f0941ca72d928c20b58edbc7c683fd3e16e4b8763d866a269187957546d",
+      "rateCandidate": null
+    },
+    {
+      "id": "techradar-home",
+      "storeBrand": null,
+      "publisher": "TechRadar",
+      "kind": "리뷰",
+      "url": "https://www.techradar.com/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:01:48.158Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/techradar-home.jpg",
+      "brands": [
+        "Hisense",
+        "Sony"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "TechRadar | the technology experts",
+      "httpStatus": 200,
+      "sha256": "7444ffb4c2beda5666838ae614d1e05808ffa54bb5d5fb83b138329ab8bf38b4",
+      "rateCandidate": null
+    },
+    {
+      "id": "consumerreports-appliances",
+      "storeBrand": null,
+      "publisher": "Consumer Reports",
+      "kind": "리뷰",
+      "url": "https://www.consumerreports.org/appliances/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:01:50.387Z",
+      "status": "error",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/consumerreports-appliances.jpg",
+      "brands": [],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "접속 또는 표시 문제. 정상 경쟁사 지면으로 계산하지 않습니다.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Service Unavailable",
+      "httpStatus": 403,
+      "sha256": "efcd533606ad2ceb857fabdea5b47ff5c98d4ef54e5f38a33010d346226b5574",
+      "rateCandidate": null
+    },
+    {
+      "id": "capitalone-home",
+      "storeBrand": null,
+      "publisher": "Capital One Shopping",
+      "kind": "캐시백",
+      "url": "https://capitaloneshopping.com/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:01:53.354Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/capitalone-home.jpg",
+      "brands": [],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Capital One Shopping: Coupons, Loyalty, and Deals",
+      "httpStatus": 200,
+      "sha256": "da698e1406d7a79466b8b8d329143a0ee785c6f8f11bcb58f8f2e28c22f964b4",
+      "rateCandidate": null
+    },
+    {
+      "id": "honey-home",
+      "storeBrand": null,
+      "publisher": "Honey",
+      "kind": "쿠폰",
+      "url": "https://www.joinhoney.com/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:00.006Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/honey-home.jpg",
+      "brands": [],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Automatic Coupons, Promo Codes, and Deals | Honey",
+      "httpStatus": 200,
+      "sha256": "d74b59f08ad84535bb848c5ccec127c16a5681f025fcc630f90935098c54f60a",
+      "rateCandidate": null
+    },
+    {
+      "id": "savings-samsung",
+      "storeBrand": "Samsung",
+      "publisher": "Savings.com",
+      "kind": "쿠폰",
+      "url": "https://www.savings.com/coupons/samsung.com",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:00.297Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/savings-samsung.jpg",
+      "brands": [
+        "Samsung"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Samsung Coupons: Get $1,500 off in October 2026",
+      "httpStatus": 200,
+      "sha256": "c64cf31e2ab38270f4017c3dda72e17afbcbb164512498c1d264f7d9f4aba6bc",
+      "rateCandidate": null
+    },
+    {
+      "id": "couponfollow-samsung",
+      "storeBrand": "Samsung",
+      "publisher": "CouponFollow",
+      "kind": "쿠폰",
+      "url": "https://couponfollow.com/site/samsung.com",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:00.507Z",
+      "status": "render_failed",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/couponfollow-samsung.jpg",
+      "brands": [],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "접속 또는 표시 문제. 정상 경쟁사 지면으로 계산하지 않습니다.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "",
+      "httpStatus": 200,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rateCandidate": null
+    },
+    {
+      "id": "goodhousekeeping-appliances",
+      "storeBrand": null,
+      "publisher": "Good Housekeeping",
+      "kind": "리뷰",
+      "url": "https://www.goodhousekeeping.com/appliances/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:02.669Z",
+      "status": "challenge",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/goodhousekeeping-appliances.jpg",
+      "brands": [],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "접속 또는 표시 문제. 정상 경쟁사 지면으로 계산하지 않습니다.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Home Appliance Reviews - Best Kitchen and Small Home Appliances",
+      "httpStatus": 200,
+      "sha256": "db3e7d95bf51196f9d0139098bb49f6737c8d65450b8e66ccac4f5ca4a9d7397",
+      "rateCandidate": null
+    },
+    {
+      "id": "thespruce-home",
+      "storeBrand": null,
+      "publisher": "The Spruce",
+      "kind": "리뷰",
+      "url": "https://www.thespruce.com/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:02.971Z",
+      "status": "error",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/thespruce-home.jpg",
+      "brands": [],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "접속 또는 표시 문제. 정상 경쟁사 지면으로 계산하지 않습니다.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "",
+      "httpStatus": 402,
+      "sha256": "28f8330c55c3308a0367b57c143ce7a6b02460be6324db7163d4ddb1b6a696a0",
+      "rateCandidate": null
+    },
+    {
+      "id": "perksatwork-home",
+      "storeBrand": null,
+      "publisher": "Next Jump Perks",
+      "kind": "직원 복지몰",
+      "url": "https://www.perksatwork.com/login",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:04.674Z",
+      "status": "entry_only",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/perksatwork-home.jpg",
+      "brands": [],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 입구만 확인. 회원 전용 혜택은 수집하지 않았습니다.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Perks at Work",
+      "httpStatus": 200,
+      "sha256": "34014985bd695baea86dc6c59d0bd73cfa2f49434d6de61534e2c6cc91a2740d",
+      "rateCandidate": null
+    },
+    {
+      "id": "perkspot-home",
+      "storeBrand": null,
+      "publisher": "PerkSpot",
+      "kind": "직원 복지몰",
+      "url": "https://www.perkspot.com/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:05.449Z",
+      "status": "entry_only",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/perkspot-home.jpg",
+      "brands": [],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 입구만 확인. 회원 전용 혜택은 수집하지 않았습니다.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "PerkSpot - Make every dollar count for your employees",
+      "httpStatus": 200,
+      "sha256": "fcc9df70113d34c182262e7eaf525b7037945e17bbacfbde869a5164c9e3fcba",
+      "rateCandidate": null
+    },
+    {
+      "id": "govx-home-loaded",
+      "storeBrand": null,
+      "publisher": "GOVX",
+      "kind": "멤버십",
+      "url": "https://www.govx.com/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:08.256Z",
+      "status": "render_failed",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/govx-home-loaded.jpg",
+      "brands": [],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "접속 또는 표시 문제. 정상 경쟁사 지면으로 계산하지 않습니다.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Military & Government Discounts on 1000+ Brands | GOVX",
+      "httpStatus": 200,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rateCandidate": null
+    },
+    {
+      "id": "rebatesme-home",
+      "storeBrand": null,
+      "publisher": "RebatesMe",
+      "kind": "캐시백",
+      "url": "https://www.rebatesme.com/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:08.257Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/rebatesme-home.jpg",
+      "brands": [
+        "Samsung"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "RebatesMe: Earn Cash Back with Coupons, Promo Codes & Discounts",
+      "httpStatus": 200,
+      "sha256": "9a259a27484a0b37274b37fa86275f2d1285e7c4bb0d5f1ca50f37b6447dd251",
+      "rateCandidate": null
+    },
+    {
+      "id": "swagbucks-home",
+      "storeBrand": null,
+      "publisher": "Swagbucks",
+      "kind": "캐시백",
+      "url": "https://www.swagbucks.com/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:10.995Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/swagbucks-home.jpg",
+      "brands": [],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Swagbucks: Coupons, Paid Online Surveys & Free Gift Cards",
+      "httpStatus": 200,
+      "sha256": "732a5d7b92713c4f03cd919c00ba636138048c758d614879e3e4daf5fbf74b6b",
+      "rateCandidate": null
+    },
+    {
+      "id": "benefithub-home",
+      "storeBrand": null,
+      "publisher": "BenefitHub",
+      "kind": "직원 복지몰",
+      "url": "https://www.benefithub.com/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:11.888Z",
+      "status": "entry_only",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/benefithub-home.jpg",
+      "brands": [],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 입구만 확인. 회원 전용 혜택은 수집하지 않았습니다.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "BenefitHub | Employee Rewards Programs & Incentives",
+      "httpStatus": 200,
+      "sha256": "96b0e5283aa3a6ce72dcc736bdbb96d3972989563b4ca0eba1871c0996d7fe8a",
+      "rateCandidate": null
+    },
+    {
+      "id": "forbes-vetted",
+      "storeBrand": null,
+      "publisher": "Forbes Vetted",
+      "kind": "리뷰",
+      "url": "https://www.forbes.com/vetted/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:14.165Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/forbes-vetted.jpg",
+      "brands": [
+        "Samsung"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Forbes Vetted",
+      "httpStatus": 200,
+      "sha256": "7f16b0f899dd77da9c7a1772d5dea7e6c18cdfb1b231a3b5370f50b803c2c124",
+      "rateCandidate": null
+    },
+    {
+      "id": "wired-home",
+      "storeBrand": null,
+      "publisher": "WIRED",
+      "kind": "리뷰",
+      "url": "https://www.wired.com/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:15.975Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/wired-home.jpg",
+      "brands": [],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "WIRED - The Latest in Technology, Science, Culture and Business | WIRED",
+      "httpStatus": 200,
+      "sha256": "cb9c900838ddf0c1805db1d58726b90f094b40c39d999e89956a3d836b01fba9",
+      "rateCandidate": null
+    },
+    {
+      "id": "topcashback-dyson",
+      "storeBrand": "Dyson",
+      "publisher": "TopCashback",
+      "kind": "캐시백",
+      "url": "https://www.topcashback.com/dyson/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:16.352Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/topcashback-dyson.jpg",
+      "brands": [
+        "Dyson"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Dyson Offers, Cash Back, Discounts & Coupons",
+      "httpStatus": 200,
+      "sha256": "989673f6de34205945c0fdaa70075adeb8681a10330c2758adf82cc6cdb07469",
+      "rateCandidate": null
+    },
+    {
+      "id": "topcashback-whirlpool",
+      "storeBrand": "Whirlpool",
+      "publisher": "TopCashback",
+      "kind": "캐시백",
+      "url": "https://www.topcashback.com/whirlpool/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:20.279Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/topcashback-whirlpool.jpg",
+      "brands": [
+        "Whirlpool"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Whirlpool Offers, Cash Back, Discounts & Coupons",
+      "httpStatus": 200,
+      "sha256": "da5528399896f4001f97c789a56fbcf321d09b5df27b8e033e03f9a3ff6bf621",
+      "rateCandidate": null
+    },
+    {
+      "id": "bradsdeals-home",
+      "storeBrand": null,
+      "publisher": "Brad’s Deals",
+      "kind": "딜",
+      "url": "https://www.bradsdeals.com/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:22.057Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/bradsdeals-home.jpg",
+      "brands": [],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Brad's Deals. There's a real-life human behind every post.",
+      "httpStatus": 200,
+      "sha256": "a26c82bfc7793c29b21d18312b44189524e69098e51f49292033b3deeb4f4de2",
+      "rateCandidate": null
+    },
+    {
+      "id": "dealnews-home",
+      "storeBrand": null,
+      "publisher": "DealNews",
+      "kind": "딜",
+      "url": "https://www.dealnews.com/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:22.815Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/dealnews-home.jpg",
+      "brands": [
+        "Samsung"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "DealNews: Best Daily Deals, Discounts & Sales",
+      "httpStatus": 202,
+      "sha256": "3e9de2bd405ace9bf05442706843e039a6945559b5d1d7fff4b7b794c1ef3f9c",
+      "rateCandidate": null
+    },
+    {
+      "id": "rakuten-lgpartnerstore",
+      "storeBrand": "LG Partner Store",
+      "publisher": "Rakuten",
+      "kind": "캐시백",
+      "url": "https://www.rakuten.com/shop/lgpartnerstore",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:23.525Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/rakuten-lgpartnerstore.jpg",
+      "brands": [
+        "LG"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "LG Partner Store Coupons, Promo Codes & 2% Cash Back - October 2026 | Rakuten",
+      "httpStatus": 200,
+      "sha256": "70a40b464f612c2177e21b14640b01b1f4d29b85930a47d9245ff8f8ec8c11aa",
+      "rateCandidate": {
+        "captureId": "rakuten-lgpartnerstore",
+        "brand": "LG Partner Store",
+        "type": "cashback",
+        "rate": 2,
+        "isMaximum": false,
+        "value": "2%",
+        "conditions": "화면 제목에서 자동 추출 · 적용 품목·제외 조건 미검토",
+        "verified": false,
+        "evidence": "2% Cash Back",
+        "category": "브랜드 상점",
+        "storeClass": "partner"
+      }
+    },
+    {
+      "id": "rakuten-ge",
+      "storeBrand": "GE Appliances",
+      "publisher": "Rakuten",
+      "kind": "캐시백",
+      "url": "https://www.rakuten.com/shop/geappliances",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:24.351Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/rakuten-ge.jpg",
+      "brands": [
+        "GE Appliances"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "GE Appliances Coupons, Promo Codes & 3% Cash Back - October 2026 | Rakuten",
+      "httpStatus": 200,
+      "sha256": "ea01a6d968a83e8f664ebe63d1c2107e6c2c5a0a3ce97cbd2fc27ddbd8340e8c",
+      "rateCandidate": {
+        "captureId": "rakuten-ge",
+        "brand": "GE Appliances",
+        "type": "cashback",
+        "rate": 3,
+        "isMaximum": false,
+        "value": "3%",
+        "conditions": "화면 제목에서 자동 추출 · 적용 품목·제외 조건 미검토",
+        "verified": false,
+        "evidence": "3% Cash Back",
+        "category": "브랜드 상점",
+        "storeClass": "public"
+      }
+    },
+    {
+      "id": "rakuten-whirlpool",
+      "storeBrand": "Whirlpool",
+      "publisher": "Rakuten",
+      "kind": "캐시백",
+      "url": "https://www.rakuten.com/shop/whirlpool",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:27.164Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/rakuten-whirlpool.jpg",
+      "brands": [
+        "Whirlpool"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Whirlpool Coupons, Promo Codes & 3% Cash Back - October 2026 | Rakuten",
+      "httpStatus": 200,
+      "sha256": "c61670169d9d525d0a376e5cdb059e844e035e60134572fac6ab1d904599ee83",
+      "rateCandidate": {
+        "captureId": "rakuten-whirlpool",
+        "brand": "Whirlpool",
+        "type": "cashback",
+        "rate": 3,
+        "isMaximum": false,
+        "value": "3%",
+        "conditions": "화면 제목에서 자동 추출 · 적용 품목·제외 조건 미검토",
+        "verified": false,
+        "evidence": "3% Cash Back",
+        "category": "브랜드 상점",
+        "storeClass": "public"
+      }
+    },
+    {
+      "id": "rakuten-frigidaire",
+      "storeBrand": "Frigidaire",
+      "publisher": "Rakuten",
+      "kind": "캐시백",
+      "url": "https://www.rakuten.com/shop/frigidaire",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:28.111Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/rakuten-frigidaire.jpg",
+      "brands": [
+        "Frigidaire"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Frigidaire Coupons, Promo Codes & 2% Cash Back - October 2026 | Rakuten",
+      "httpStatus": 200,
+      "sha256": "a41dfd21ede2c275183735378a50e7e8e71f086a9dcf1da335a3c34bb5120cb9",
+      "rateCandidate": {
+        "captureId": "rakuten-frigidaire",
+        "brand": "Frigidaire",
+        "type": "cashback",
+        "rate": 2,
+        "isMaximum": false,
+        "value": "2%",
+        "conditions": "화면 제목에서 자동 추출 · 적용 품목·제외 조건 미검토",
+        "verified": false,
+        "evidence": "2% Cash Back",
+        "category": "브랜드 상점",
+        "storeClass": "public"
+      }
+    },
+    {
+      "id": "rakuten-sony",
+      "storeBrand": "Sony",
+      "publisher": "Rakuten",
+      "kind": "캐시백",
+      "url": "https://www.rakuten.com/shop/sonyelectronics",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:28.532Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/rakuten-sony.jpg",
+      "brands": [
+        "Sony"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Sony Electronics Coupons, Promo Codes & 2% Cash Back - October 2026 | Rakuten",
+      "httpStatus": 200,
+      "sha256": "e7936b43d82551669f0919eab9e0e09994ca7b77e38dff62d4d01b65a3db2316",
+      "rateCandidate": {
+        "captureId": "rakuten-sony",
+        "brand": "Sony",
+        "type": "cashback",
+        "rate": 2,
+        "isMaximum": false,
+        "value": "2%",
+        "conditions": "화면 제목에서 자동 추출 · 적용 품목·제외 조건 미검토",
+        "verified": false,
+        "evidence": "2% Cash Back",
+        "category": "브랜드 상점",
+        "storeClass": "public"
+      }
+    },
+    {
+      "id": "topcashback-lg",
+      "storeBrand": "LG",
+      "publisher": "TopCashback",
+      "kind": "캐시백",
+      "url": "https://www.topcashback.com/lg-electronics/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:32.139Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/topcashback-lg.jpg",
+      "brands": [
+        "LG"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "LG Electronics Offers, Cash Back, Discounts & Coupons",
+      "httpStatus": 200,
+      "sha256": "7179396a0b11f6791850ff2346c4b93da7cc3803ff38c7b2744631184c931be5",
+      "rateCandidate": null
+    },
+    {
+      "id": "topcashback-ge",
+      "storeBrand": "GE Appliances",
+      "publisher": "TopCashback",
+      "kind": "캐시백",
+      "url": "https://www.topcashback.com/ge-appliances/",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:33.298Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/topcashback-ge.jpg",
+      "brands": [
+        "GE Appliances"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "GE Appliances Offers, Cash Back, Discounts & Coupons",
+      "httpStatus": 200,
+      "sha256": "fc5beb36dc271905a970883ac804f58eafb8b8500c0b27645d5d79691e32ef2a",
+      "rateCandidate": null
+    },
+    {
+      "id": "capitalone-lg",
+      "storeBrand": "LG",
+      "publisher": "Capital One Shopping",
+      "kind": "리워드",
+      "url": "https://capitaloneshopping.com/s/lg.com/coupon",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:33.536Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/capitalone-lg.jpg",
+      "brands": [
+        "LG"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "LG Electronics Promo Codes & Coupons for October 2026",
+      "httpStatus": 200,
+      "sha256": "f718ae3f98fcf3646ed7703951e373b6a637d2fa501e27b1fb01becf80f88928",
+      "rateCandidate": null
+    },
+    {
+      "id": "capitalone-samsung",
+      "storeBrand": "Samsung",
+      "publisher": "Capital One Shopping",
+      "kind": "리워드",
+      "url": "https://capitaloneshopping.com/s/samsung.com/coupon",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:35.635Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/capitalone-samsung.jpg",
+      "brands": [
+        "Samsung",
+        "LG"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Samsung Promo Codes & Coupons for October 2026",
+      "httpStatus": 200,
+      "sha256": "fd3843a8eb8f0bebd032332e860727276d8cce00cb47e3c87fa1953a45fe703b",
+      "rateCandidate": null
+    },
+    {
+      "id": "capitalone-ge",
+      "storeBrand": "GE Appliances",
+      "publisher": "Capital One Shopping",
+      "kind": "리워드",
+      "url": "https://capitaloneshopping.com/s/geappliances.com/coupon",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:36.173Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/capitalone-ge.jpg",
+      "brands": [
+        "GE Appliances",
+        "Whirlpool"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "GE Appliances Promo Codes & Coupons for October 2026",
+      "httpStatus": 200,
+      "sha256": "e1994721b44811aaf0dcd7c730498208b86167648cc909376f1057441cf681b0",
+      "rateCandidate": null
+    },
+    {
+      "id": "capitalone-whirlpool",
+      "storeBrand": "Whirlpool",
+      "publisher": "Capital One Shopping",
+      "kind": "리워드",
+      "url": "https://capitaloneshopping.com/s/whirlpool.com/coupon",
+      "date": "2026-10-16",
+      "usDate": "2026-10-15",
+      "capturedAt": "2026-10-16T00:02:36.659Z",
+      "status": "captured",
+      "screenshot": "captures/2026-10-16/2026-10-16T00-01-34-465Z/capitalone-whirlpool.jpg",
+      "brands": [
+        "Whirlpool"
+      ],
+      "usIpVerified": true,
+      "country": "US",
+      "market": "US IP 확인 · 비로그인",
+      "reviewed": false,
+      "note": "공개 화면 자동 캡처. 브랜드 언급은 탐지 후보이며 프로모션 조건·유료 광고 여부는 미검토.",
+      "scope": "1440×1000 desktop viewport",
+      "title": "Whirlpool Promo Codes & Coupons for October 2026",
+      "httpStatus": 200,
+      "sha256": "941f7de54278e6b517b5371fc782a0146489f1cce809c33d3c86b0ff650b405b",
+      "rateCandidate": null
+    }
+  ],
+  "activities": [],
+  "registry": [
+    {
+      "id": "src-001",
+      "name": "Rakuten.com",
+      "canonical": "Rakuten",
+      "mode": "registered",
+      "captureIds": [
+        "rakuten-samsung",
+        "rakuten-lg",
+        "rakuten-lgpartnerstore",
+        "rakuten-ge",
+        "rakuten-whirlpool",
+        "rakuten-frigidaire",
+        "rakuten-sony"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-002",
+      "name": "Capital One",
+      "canonical": "Capital One Shopping",
+      "mode": "registered",
+      "captureIds": [
+        "capitalone-home",
+        "capitalone-lg",
+        "capitalone-samsung",
+        "capitalone-ge",
+        "capitalone-whirlpool"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-003",
+      "name": "Performance tv",
+      "canonical": "Performance tv",
+      "mode": "non_web",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "영상·오디오·광고 네트워크: 공급사 게재 보고서 필요"
+    },
+    {
+      "id": "src-004",
+      "name": "Audiohook",
+      "canonical": "Audiohook",
+      "mode": "non_web",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "영상·오디오·광고 네트워크: 공급사 게재 보고서 필요"
+    },
+    {
+      "id": "src-005",
+      "name": "Next Jump Perks",
+      "canonical": "Next Jump Perks",
+      "mode": "registered",
+      "captureIds": [
+        "perksatwork-home"
+      ],
+      "mapping": "원문명 일치",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-006",
+      "name": "ID.me Shop",
+      "canonical": "ID.me Shop",
+      "mode": "registered",
+      "captureIds": [
+        "idme-samsung-clean",
+        "idme-ge"
+      ],
+      "mapping": "원문명 일치",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-007",
+      "name": "TopCashBack.com",
+      "canonical": "TopCashback",
+      "mode": "registered",
+      "captureIds": [
+        "topcashback-samsung",
+        "topcashback-dyson",
+        "topcashback-whirlpool",
+        "topcashback-lg",
+        "topcashback-ge"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-008",
+      "name": "RetailMeNot",
+      "canonical": "RetailMeNot",
+      "mode": "registered",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-009",
+      "name": "10133627",
+      "canonical": "10133627",
+      "mode": "unresolved_id",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "숫자 식별자만 존재: CJ 퍼블리셔 디렉터리 대조 필요"
+    },
+    {
+      "id": "src-010",
+      "name": "Wickfire",
+      "canonical": "Wickfire",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-011",
+      "name": "PerkSpot.com",
+      "canonical": "PerkSpot",
+      "mode": "registered",
+      "captureIds": [
+        "perkspot-home"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-012",
+      "name": "CLO - American Express",
+      "canonical": "CLO - American Express",
+      "mode": "membership",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "회원 자격·로그인 환경 필요"
+    },
+    {
+      "id": "src-013",
+      "name": "Cartera Commerce (f/k/a Mall Networks)",
+      "canonical": "Cartera Commerce (f/k/a Mall Networks)",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-014",
+      "name": "Honey",
+      "canonical": "Honey",
+      "mode": "registered",
+      "captureIds": [
+        "honey-home"
+      ],
+      "mapping": "원문명 일치",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-015",
+      "name": "govx.com",
+      "canonical": "GOVX",
+      "mode": "registered",
+      "captureIds": [
+        "govx-home-loaded"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-016",
+      "name": "Consumer Reports",
+      "canonical": "Consumer Reports",
+      "mode": "registered",
+      "captureIds": [
+        "consumerreports-appliances"
+      ],
+      "mapping": "원문명 일치",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-017",
+      "name": "BenefitHub",
+      "canonical": "BenefitHub",
+      "mode": "registered",
+      "captureIds": [
+        "benefithub-home"
+      ],
+      "mapping": "원문명 일치",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-018",
+      "name": "www.passportcorporate.com",
+      "canonical": "www.passportcorporate.com",
+      "mode": "membership",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "회원 자격·로그인 환경 필요"
+    },
+    {
+      "id": "src-019",
+      "name": "Affirm App Marketplace",
+      "canonical": "Affirm App Marketplace",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-020",
+      "name": "WIRED Coupon Content",
+      "canonical": "WIRED",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "WIRED 홈페이지는 확인했으나 이 쿠폰 전용 지면은 아직 미수집."
+    },
+    {
+      "id": "src-021",
+      "name": "EdgeBingFlow",
+      "canonical": "EdgeBingFlow",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-022",
+      "name": "Affirm + Expedia Media Solutions",
+      "canonical": "Affirm + Expedia Media Solutions",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-023",
+      "name": "ID.me Shop Browser Extension",
+      "canonical": "ID.me Shop",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-024",
+      "name": "Howl Creator",
+      "canonical": "Howl Creator",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-025",
+      "name": "www.Youdecide.com",
+      "canonical": "www.Youdecide.com",
+      "mode": "membership",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "회원 자격·로그인 환경 필요"
+    },
+    {
+      "id": "src-026",
+      "name": "Reward Gateway Marketing Placements",
+      "canonical": "Reward Gateway Marketing Placements",
+      "mode": "membership",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "회원 자격·로그인 환경 필요"
+    },
+    {
+      "id": "src-027",
+      "name": "LifeMart",
+      "canonical": "LifeMart",
+      "mode": "membership",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "회원 자격·로그인 환경 필요"
+    },
+    {
+      "id": "src-028",
+      "name": "Savings.com",
+      "canonical": "Savings.com",
+      "mode": "registered",
+      "captureIds": [
+        "savings-samsung"
+      ],
+      "mapping": "원문명 일치",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-029",
+      "name": "Groupon Coupons",
+      "canonical": "Groupon Coupons",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-030",
+      "name": "Slickdeals Forums",
+      "canonical": "Slickdeals",
+      "mode": "registered",
+      "captureIds": [
+        "slickdeals-home"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-031",
+      "name": "CLO - Citi",
+      "canonical": "CLO - Citi",
+      "mode": "membership",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "회원 자격·로그인 환경 필요"
+    },
+    {
+      "id": "src-032",
+      "name": "Coupert browser extension",
+      "canonical": "Coupert browser extension",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-033",
+      "name": "Discoup US",
+      "canonical": "Discoup US",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-034",
+      "name": "edgeOrganic",
+      "canonical": "edgeOrganic",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-035",
+      "name": "YouTube",
+      "canonical": "YouTube",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-036",
+      "name": "LifeBalance",
+      "canonical": "LifeBalance",
+      "mode": "membership",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "회원 자격·로그인 환경 필요"
+    },
+    {
+      "id": "src-037",
+      "name": "tvScientific by Pinterest Display",
+      "canonical": "tvScientific by Pinterest Display",
+      "mode": "non_web",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "영상·오디오·광고 네트워크: 공급사 게재 보고서 필요"
+    },
+    {
+      "id": "src-038",
+      "name": "Corestream",
+      "canonical": "Corestream",
+      "mode": "membership",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "회원 자격·로그인 환경 필요"
+    },
+    {
+      "id": "src-039",
+      "name": "Working Advantage",
+      "canonical": "Working Advantage",
+      "mode": "membership",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "회원 자격·로그인 환경 필요"
+    },
+    {
+      "id": "src-040",
+      "name": "Bing",
+      "canonical": "Bing",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-041",
+      "name": "RTINGS.com",
+      "canonical": "RTINGS",
+      "mode": "registered",
+      "captureIds": [
+        "rtings-tv"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-042",
+      "name": "Tom's Guide",
+      "canonical": "Tom’s Guide",
+      "mode": "registered",
+      "captureIds": [
+        "tomsguide-home"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-043",
+      "name": "Gen Digital X NGS extension",
+      "canonical": "Gen Digital X NGS extension",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-044",
+      "name": "Citi MSE Client",
+      "canonical": "Citi MSE Client",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-045",
+      "name": "Slickdeals.net",
+      "canonical": "Slickdeals",
+      "mode": "registered",
+      "captureIds": [
+        "slickdeals-home"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-046",
+      "name": "https://www.wired.com/tag/coupons/",
+      "canonical": "WIRED",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "WIRED 홈페이지는 확인했으나 이 쿠폰 전용 지면은 아직 미수집."
+    },
+    {
+      "id": "src-047",
+      "name": "Yahoo Mail",
+      "canonical": "Yahoo Mail",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-048",
+      "name": "couponfollow",
+      "canonical": "CouponFollow",
+      "mode": "registered",
+      "captureIds": [
+        "couponfollow-samsung"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-049",
+      "name": "BeFrugal.com",
+      "canonical": "BeFrugal",
+      "mode": "registered",
+      "captureIds": [
+        "befrugal-samsung"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-050",
+      "name": "Citi CE Client",
+      "canonical": "Citi CE Client",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-051",
+      "name": "PerkSpot Browser Extension",
+      "canonical": "PerkSpot",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-052",
+      "name": "Tech Radar US",
+      "canonical": "TechRadar",
+      "mode": "registered",
+      "captureIds": [
+        "techradar-home"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-053",
+      "name": "SitePlug (516262)",
+      "canonical": "SitePlug (516262)",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-054",
+      "name": "Acorns Mobile Safari Extension",
+      "canonical": "Acorns Mobile Safari Extension",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-055",
+      "name": "RebatesMe.com",
+      "canonical": "RebatesMe",
+      "mode": "registered",
+      "captureIds": [
+        "rebatesme-home"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-056",
+      "name": "IGN",
+      "canonical": "IGN",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-057",
+      "name": "Forbes Vetted",
+      "canonical": "Forbes Vetted",
+      "mode": "registered",
+      "captureIds": [
+        "forbes-vetted"
+      ],
+      "mapping": "원문명 일치",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-058",
+      "name": "Ibotta",
+      "canonical": "Ibotta",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-059",
+      "name": "phia.com",
+      "canonical": "phia.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-060",
+      "name": "Upromise",
+      "canonical": "Upromise",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-061",
+      "name": "Acima Leasing Mobile App",
+      "canonical": "Acima Leasing Mobile App",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-062",
+      "name": "Tom's Hardware",
+      "canonical": "Tom's Hardware",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-063",
+      "name": "MyUNiDAYS",
+      "canonical": "MyUNiDAYS",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-064",
+      "name": "Klarna Browser Extension",
+      "canonical": "Klarna Browser Extension",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-065",
+      "name": "Student Beans",
+      "canonical": "Student Beans",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-066",
+      "name": "Fetch",
+      "canonical": "Fetch",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-067",
+      "name": "Acorns Extension",
+      "canonical": "Acorns Extension",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-068",
+      "name": "Slickdeals Shopping Assistant",
+      "canonical": "Slickdeals",
+      "mode": "registered",
+      "captureIds": [
+        "slickdeals-home"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-069",
+      "name": "Mavely Network 2.0",
+      "canonical": "Mavely Network 2.0",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-070",
+      "name": "Give Freely JSON Formatter CE API",
+      "canonical": "Give Freely JSON Formatter CE API",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-071",
+      "name": "CouponFollow",
+      "canonical": "CouponFollow",
+      "mode": "registered",
+      "captureIds": [
+        "couponfollow-samsung"
+      ],
+      "mapping": "원문명 일치",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-072",
+      "name": "Citi Edge Client",
+      "canonical": "Citi Edge Client",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-073",
+      "name": "Shop My Shelf Sub-Affiliate",
+      "canonical": "Shop My Shelf Sub-Affiliate",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-074",
+      "name": "Access Web Portal",
+      "canonical": "Access Web Portal",
+      "mode": "membership",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "회원 자격·로그인 환경 필요"
+    },
+    {
+      "id": "src-075",
+      "name": "MrRebates.com",
+      "canonical": "MrRebates.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-076",
+      "name": "Tom's Guide US",
+      "canonical": "Tom’s Guide",
+      "mode": "registered",
+      "captureIds": [
+        "tomsguide-home"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-077",
+      "name": "MacRumors",
+      "canonical": "MacRumors",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-078",
+      "name": "The Strategist",
+      "canonical": "The Strategist",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-079",
+      "name": "Swagbucks.com",
+      "canonical": "Swagbucks",
+      "mode": "registered",
+      "captureIds": [
+        "swagbucks-home"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-080",
+      "name": "BrandCycle.com",
+      "canonical": "BrandCycle.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-081",
+      "name": "Wirecutter",
+      "canonical": "Wirecutter",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-082",
+      "name": "CouponCabin",
+      "canonical": "CouponCabin",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-083",
+      "name": "CNET",
+      "canonical": "CNET",
+      "mode": "registered",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-084",
+      "name": "Mypoints",
+      "canonical": "Mypoints",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-085",
+      "name": "Rove Desktop API",
+      "canonical": "Rove Desktop API",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-086",
+      "name": "SimplyCodes",
+      "canonical": "SimplyCodes",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-087",
+      "name": "Karma Shopping  Desktop / Mobile",
+      "canonical": "Karma Shopping  Desktop / Mobile",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-088",
+      "name": "PCPartPicker",
+      "canonical": "PCPartPicker",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-089",
+      "name": "Citi DSE Client",
+      "canonical": "Citi DSE Client",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-090",
+      "name": "Snow Deals (528928)",
+      "canonical": "Snow Deals (528928)",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-091",
+      "name": "rewardStyle",
+      "canonical": "rewardStyle",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-092",
+      "name": "wired.com",
+      "canonical": "WIRED",
+      "mode": "registered",
+      "captureIds": [
+        "wired-home"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-093",
+      "name": "The Spruce",
+      "canonical": "The Spruce",
+      "mode": "registered",
+      "captureIds": [
+        "thespruce-home"
+      ],
+      "mapping": "원문명 일치",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-094",
+      "name": "Benjamin Schlichter",
+      "canonical": "Benjamin Schlichter",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-095",
+      "name": "goodhousekeeping.com",
+      "canonical": "Good Housekeeping",
+      "mode": "registered",
+      "captureIds": [
+        "goodhousekeeping-appliances"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-096",
+      "name": "Checkmate iOS App",
+      "canonical": "Checkmate iOS App",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-097",
+      "name": "SimplyBestCoupons.com",
+      "canonical": "SimplyBestCoupons.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-098",
+      "name": "Give Freely Volume Booster CE API",
+      "canonical": "Give Freely Volume Booster CE API",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-099",
+      "name": "Best Products Reviews",
+      "canonical": "Best Products Reviews",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-100",
+      "name": "Pete Matheson?s YouTube",
+      "canonical": "Pete Matheson?s YouTube",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-101",
+      "name": "Give Freely CSS Peeper CE API",
+      "canonical": "Give Freely CSS Peeper CE API",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-102",
+      "name": "Cently",
+      "canonical": "Cently",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-103",
+      "name": "Justin Kahn ??9to5",
+      "canonical": "Justin Kahn ??9to5",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-104",
+      "name": "ZDNET",
+      "canonical": "ZDNET",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-105",
+      "name": "popularmechanics.com",
+      "canonical": "popularmechanics.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-106",
+      "name": "Slickdeals Promo Codes",
+      "canonical": "Slickdeals",
+      "mode": "registered",
+      "captureIds": [
+        "slickdeals-home"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-107",
+      "name": "Jon Rettinger",
+      "canonical": "Jon Rettinger",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-108",
+      "name": "Loyalty Innovation (Formally Azigo)",
+      "canonical": "Loyalty Innovation (Formally Azigo)",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-109",
+      "name": "Active Junky",
+      "canonical": "Active Junky",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-110",
+      "name": "Give Freely Merlin CE API",
+      "canonical": "Give Freely Merlin CE API",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-111",
+      "name": "Give Freely x Substital CE API",
+      "canonical": "Give Freely x Substital CE API",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-112",
+      "name": "B The Installer",
+      "canonical": "B The Installer",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-113",
+      "name": "Clarus Marketing Group",
+      "canonical": "Clarus Marketing Group",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-114",
+      "name": "Rove Desktop Chrome Extension Launchpad",
+      "canonical": "Rove Desktop Chrome Extension Launchpad",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-115",
+      "name": "CNN Underscored",
+      "canonical": "CNN Underscored",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-116",
+      "name": "Shift Coupons API",
+      "canonical": "Shift Coupons API",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-117",
+      "name": "Simply Codes - Website",
+      "canonical": "Simply Codes - Website",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-118",
+      "name": "PCGamer",
+      "canonical": "PCGamer",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-119",
+      "name": "JoinKudos.com",
+      "canonical": "JoinKudos.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-120",
+      "name": "TechRadar",
+      "canonical": "TechRadar",
+      "mode": "registered",
+      "captureIds": [
+        "techradar-home"
+      ],
+      "mapping": "원문명 일치",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-121",
+      "name": "JetBlue",
+      "canonical": "JetBlue",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-122",
+      "name": "1097530 Cathy Wong",
+      "canonical": "1097530 Cathy Wong",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-123",
+      "name": "Business Insider",
+      "canonical": "Business Insider",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-124",
+      "name": "Engadget",
+      "canonical": "Engadget",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-125",
+      "name": "CN Traveler Coupon Content",
+      "canonical": "CN Traveler Coupon Content",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-126",
+      "name": "RaiseRight | FlipGive",
+      "canonical": "RaiseRight | FlipGive",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-127",
+      "name": "Los Angeles Times Studios",
+      "canonical": "Los Angeles Times Studios",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-128",
+      "name": "1453823",
+      "canonical": "1453823",
+      "mode": "unresolved_id",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "숫자 식별자만 존재: CJ 퍼블리셔 디렉터리 대조 필요"
+    },
+    {
+      "id": "src-129",
+      "name": "FoundersCard",
+      "canonical": "FoundersCard",
+      "mode": "membership",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "회원 자격·로그인 환경 필요"
+    },
+    {
+      "id": "src-130",
+      "name": "Lifewire",
+      "canonical": "Lifewire",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-131",
+      "name": "mail.yahoo.com",
+      "canonical": "mail.yahoo.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-132",
+      "name": "bradsdeals.com",
+      "canonical": "Brad’s Deals",
+      "mode": "registered",
+      "captureIds": [
+        "bradsdeals-home"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-133",
+      "name": "Phia Mobile App API",
+      "canonical": "Phia Mobile App API",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-134",
+      "name": "CJ Pay Per Call",
+      "canonical": "CJ Pay Per Call",
+      "mode": "non_web",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "영상·오디오·광고 네트워크: 공급사 게재 보고서 필요"
+    },
+    {
+      "id": "src-135",
+      "name": "MSN",
+      "canonical": "MSN",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-136",
+      "name": "businessinsider.com",
+      "canonical": "businessinsider.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-137",
+      "name": "Klarna consumer app",
+      "canonical": "Klarna consumer app",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-138",
+      "name": "Inbox Dollars",
+      "canonical": "Inbox Dollars",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-139",
+      "name": "hotdeals.com",
+      "canonical": "hotdeals.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-140",
+      "name": "Coupons.com Loyalty",
+      "canonical": "Coupons.com Loyalty",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-141",
+      "name": "MyRegistry.com Universal Gift Registry",
+      "canonical": "MyRegistry.com Universal Gift Registry",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-142",
+      "name": "Realry",
+      "canonical": "Realry",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-143",
+      "name": "Sezzle Mobile Safari Extension",
+      "canonical": "Sezzle Mobile Safari Extension",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-144",
+      "name": "Ben's Appliances and Junk",
+      "canonical": "Ben's Appliances and Junk",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-145",
+      "name": "PC Gamer",
+      "canonical": "PC Gamer",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-146",
+      "name": "Greystar Employee Portal",
+      "canonical": "Greystar Employee Portal",
+      "mode": "membership",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "회원 자격·로그인 환경 필요"
+    },
+    {
+      "id": "src-147",
+      "name": "Mashable",
+      "canonical": "Mashable",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-148",
+      "name": "ShopBack",
+      "canonical": "ShopBack",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-149",
+      "name": "Cnet",
+      "canonical": "CNET",
+      "mode": "registered",
+      "captureIds": [],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-150",
+      "name": "Rakuten",
+      "canonical": "Rakuten",
+      "mode": "registered",
+      "captureIds": [
+        "rakuten-samsung",
+        "rakuten-lg",
+        "rakuten-lgpartnerstore",
+        "rakuten-ge",
+        "rakuten-whirlpool",
+        "rakuten-frigidaire",
+        "rakuten-sony"
+      ],
+      "mapping": "원문명 일치",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-151",
+      "name": "Phia.com Browser Extension",
+      "canonical": "Phia.com Browser Extension",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-152",
+      "name": "gearpatrol.com",
+      "canonical": "gearpatrol.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-153",
+      "name": "USA TODAY Content",
+      "canonical": "USA TODAY Content",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-154",
+      "name": "bestproducts.com",
+      "canonical": "bestproducts.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-155",
+      "name": "ShopHer Media Internal (301386)",
+      "canonical": "ShopHer Media Internal (301386)",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-156",
+      "name": "The RebatesMe Cash Back Button",
+      "canonical": "RebatesMe",
+      "mode": "registered",
+      "captureIds": [
+        "rebatesme-home"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-157",
+      "name": "tapmedia.co.uk",
+      "canonical": "tapmedia.co.uk",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-158",
+      "name": "Acorns Web",
+      "canonical": "Acorns Web",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-159",
+      "name": "Offers.com",
+      "canonical": "Offers.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-160",
+      "name": "tvreviews.net",
+      "canonical": "tvreviews.net",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-161",
+      "name": "FatCoupon website",
+      "canonical": "FatCoupon website",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-162",
+      "name": "Yazing",
+      "canonical": "Yazing",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-163",
+      "name": "Zip App",
+      "canonical": "Zip App",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-164",
+      "name": "Price.com",
+      "canonical": "Price.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-165",
+      "name": "Homes & Gardens Vouchers",
+      "canonical": "Homes & Gardens Vouchers",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-166",
+      "name": "AMS",
+      "canonical": "AMS",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-167",
+      "name": "Pie Shopping Extension",
+      "canonical": "Pie Shopping Extension",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-168",
+      "name": "couponcabin.com",
+      "canonical": "couponcabin.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-169",
+      "name": "US Weekly",
+      "canonical": "US Weekly",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-170",
+      "name": "popsci.com",
+      "canonical": "popsci.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-171",
+      "name": "Benjamin Mobile Safari Extension",
+      "canonical": "Benjamin Mobile Safari Extension",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-172",
+      "name": "Mandatory",
+      "canonical": "Mandatory",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-173",
+      "name": "tasteofhome.com",
+      "canonical": "tasteofhome.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-174",
+      "name": "MSN.com",
+      "canonical": "MSN.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-175",
+      "name": "hotdeals",
+      "canonical": "hotdeals",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-176",
+      "name": "KashKick Mobile Safari Extension",
+      "canonical": "KashKick Mobile Safari Extension",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-177",
+      "name": "Cubby",
+      "canonical": "Cubby",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-178",
+      "name": "Sleek Extension",
+      "canonical": "Sleek Extension",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-179",
+      "name": "Wizard Perks",
+      "canonical": "Wizard Perks",
+      "mode": "membership",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "회원 자격·로그인 환경 필요"
+    },
+    {
+      "id": "src-180",
+      "name": "nymag.com/strategist",
+      "canonical": "nymag.com/strategist",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-181",
+      "name": "My Education Discount's Homepage",
+      "canonical": "My Education Discount's Homepage",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-182",
+      "name": "Extrabux.com",
+      "canonical": "Extrabux.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-183",
+      "name": "Kudos Technologies, Inc",
+      "canonical": "Kudos Technologies, Inc",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-184",
+      "name": "Hardware Unboxed",
+      "canonical": "Hardware Unboxed",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-185",
+      "name": "TripAdvisor CE API",
+      "canonical": "TripAdvisor CE API",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-186",
+      "name": "https://www.justjosh.tech",
+      "canonical": "https://www.justjosh.tech",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-187",
+      "name": "Tin Headless Couponator Mobile",
+      "canonical": "Tin Headless Couponator Mobile",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-188",
+      "name": "CouponBirds SmartCoupon Finder",
+      "canonical": "CouponBirds SmartCoupon Finder",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-189",
+      "name": "GoCashBack.com",
+      "canonical": "GoCashBack.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-190",
+      "name": "Momtastic",
+      "canonical": "Momtastic",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-191",
+      "name": "Created Tech",
+      "canonical": "Created Tech",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-192",
+      "name": "1285723",
+      "canonical": "1285723",
+      "mode": "unresolved_id",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "숫자 식별자만 존재: CJ 퍼블리셔 디렉터리 대조 필요"
+    },
+    {
+      "id": "src-193",
+      "name": "Greystar Rewards (Property Mgr with 1.2M+ residents)",
+      "canonical": "Greystar Rewards (Property Mgr with 1.2M+ residents)",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-194",
+      "name": "Uplift - Buy Now Pay Later Mobile App",
+      "canonical": "Uplift - Buy Now Pay Later Mobile App",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-195",
+      "name": "Cool Material",
+      "canonical": "Cool Material",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-196",
+      "name": "Trillion - Product + Brand Search",
+      "canonical": "Trillion - Product + Brand Search",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-197",
+      "name": "Yahoo Content for Publishers",
+      "canonical": "Yahoo Content for Publishers",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-198",
+      "name": "Archive this user",
+      "canonical": "Archive this user",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-199",
+      "name": "Apartment Therapy",
+      "canonical": "Apartment Therapy",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-200",
+      "name": "listful.com",
+      "canonical": "listful.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-201",
+      "name": "DealNews",
+      "canonical": "DealNews",
+      "mode": "registered",
+      "captureIds": [
+        "dealnews-home"
+      ],
+      "mapping": "원문명 일치",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-202",
+      "name": "familyhandyman.com",
+      "canonical": "familyhandyman.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-203",
+      "name": "BradsDeals.com",
+      "canonical": "Brad’s Deals",
+      "mode": "registered",
+      "captureIds": [
+        "bradsdeals-home"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-204",
+      "name": "Tinyurl.com",
+      "canonical": "Tinyurl.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-205",
+      "name": "1467009",
+      "canonical": "1467009",
+      "mode": "unresolved_id",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "숫자 식별자만 존재: CJ 퍼블리셔 디렉터리 대조 필요"
+    },
+    {
+      "id": "src-206",
+      "name": "MagicLinks",
+      "canonical": "MagicLinks",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-207",
+      "name": "valuecom.com",
+      "canonical": "valuecom.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-208",
+      "name": "Slickdeals Adv Tracking",
+      "canonical": "Slickdeals",
+      "mode": "registered",
+      "captureIds": [
+        "slickdeals-home"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-209",
+      "name": "DontPayFull",
+      "canonical": "DontPayFull",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-210",
+      "name": "Graphically Challenged and The Display Guy",
+      "canonical": "Graphically Challenged and The Display Guy",
+      "mode": "non_web",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "영상·오디오·광고 네트워크: 공급사 게재 보고서 필요"
+    },
+    {
+      "id": "src-211",
+      "name": "Kitchen Hacks YouTube",
+      "canonical": "Kitchen Hacks YouTube",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-212",
+      "name": "Life Magazine",
+      "canonical": "Life Magazine",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-213",
+      "name": "Mobile App - Kindred.co",
+      "canonical": "Mobile App - Kindred.co",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-214",
+      "name": "Digital Trends",
+      "canonical": "Digital Trends",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-215",
+      "name": "Karma Shopping",
+      "canonical": "Karma Shopping",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-216",
+      "name": "What Hi-Fi",
+      "canonical": "What Hi-Fi",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-217",
+      "name": "Internet Brands (555218)",
+      "canonical": "Internet Brands (555218)",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-218",
+      "name": "dealmoon",
+      "canonical": "dealmoon",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-219",
+      "name": "Howard County Public School System Staff Discount Program",
+      "canonical": "Howard County Public School System Staff Discount Program",
+      "mode": "membership",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "회원 자격·로그인 환경 필요"
+    },
+    {
+      "id": "src-220",
+      "name": "share-a-cart.com",
+      "canonical": "share-a-cart.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-221",
+      "name": "Jacob Dark's YouTube Channel",
+      "canonical": "Jacob Dark's YouTube Channel",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-222",
+      "name": "Rotary Digital",
+      "canonical": "Rotary Digital",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-223",
+      "name": "PC Centric",
+      "canonical": "PC Centric",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-224",
+      "name": "WorthEPenny: Coupon Website",
+      "canonical": "WorthEPenny: Coupon Website",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-225",
+      "name": "She Buys Travel",
+      "canonical": "She Buys Travel",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-226",
+      "name": "CreditKey Desktop Offerwall API Client",
+      "canonical": "CreditKey Desktop Offerwall API Client",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-227",
+      "name": "JOKO",
+      "canonical": "JOKO",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-228",
+      "name": "moonsift.com",
+      "canonical": "moonsift.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-229",
+      "name": "Shop Your Way CE Client",
+      "canonical": "Shop Your Way CE Client",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-230",
+      "name": "findthedeal.org",
+      "canonical": "findthedeal.org",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-231",
+      "name": "bonappetit.com",
+      "canonical": "bonappetit.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-232",
+      "name": "Minty.com",
+      "canonical": "Minty.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-233",
+      "name": "Full Time Travel",
+      "canonical": "Full Time Travel",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-234",
+      "name": "Top Ten Reviews",
+      "canonical": "Top Ten Reviews",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-235",
+      "name": "gowish.com",
+      "canonical": "gowish.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-236",
+      "name": "Dupe.com",
+      "canonical": "Dupe.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-237",
+      "name": "Give Freely Web Highlights CE API",
+      "canonical": "Give Freely Web Highlights CE API",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-238",
+      "name": "ShopMy",
+      "canonical": "ShopMy",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-239",
+      "name": "Bring Crypto Cashback",
+      "canonical": "Bring Crypto Cashback",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-240",
+      "name": "Azigo/Loyalty Innovation",
+      "canonical": "Azigo/Loyalty Innovation",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-241",
+      "name": "paylaterfinder.com",
+      "canonical": "paylaterfinder.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-242",
+      "name": "DealCatcher",
+      "canonical": "DealCatcher",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-243",
+      "name": "Tada - Formerly Shopathome",
+      "canonical": "Tada - Formerly Shopathome",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-244",
+      "name": "Serious Eats",
+      "canonical": "Serious Eats",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-245",
+      "name": "Moneylion MSE",
+      "canonical": "Moneylion MSE",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-246",
+      "name": "arstechnica.com",
+      "canonical": "arstechnica.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-247",
+      "name": "Total Beauty",
+      "canonical": "Total Beauty",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-248",
+      "name": "PromoCodes.com",
+      "canonical": "PromoCodes.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-249",
+      "name": "Knoji",
+      "canonical": "Knoji",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-250",
+      "name": "Givebacks Mobile Safari Extension",
+      "canonical": "Givebacks Mobile Safari Extension",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-251",
+      "name": "Men's Journal",
+      "canonical": "Men's Journal",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-252",
+      "name": "Rolling Stone",
+      "canonical": "Rolling Stone",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-253",
+      "name": "couponfollow.com",
+      "canonical": "CouponFollow",
+      "mode": "registered",
+      "captureIds": [
+        "couponfollow-samsung"
+      ],
+      "mapping": "이름 정규화; CJ 계정-도메인 소유 관계는 추가 확인",
+      "note": "선정 지면의 수집 상태 참조"
+    },
+    {
+      "id": "src-254",
+      "name": "Ben's Bargain Center ",
+      "canonical": "Ben's Bargain Center ",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-255",
+      "name": "WeWard - BE",
+      "canonical": "WeWard - BE",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-256",
+      "name": "marketamerica.com,inc.",
+      "canonical": "marketamerica.com,inc.",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-257",
+      "name": "dataprot.net",
+      "canonical": "dataprot.net",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-258",
+      "name": "Game Revolution",
+      "canonical": "Game Revolution",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-259",
+      "name": "Mr. Rebates' Quick Cash Button",
+      "canonical": "Mr. Rebates' Quick Cash Button",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-260",
+      "name": "Symbaloo.com",
+      "canonical": "Symbaloo.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-261",
+      "name": "revealdiscounts.com",
+      "canonical": "revealdiscounts.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-262",
+      "name": "wantlocker.com",
+      "canonical": "wantlocker.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-263",
+      "name": "Babylist",
+      "canonical": "Babylist",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-264",
+      "name": "Give Freely Chrome Extension",
+      "canonical": "Give Freely Chrome Extension",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 지면은 미수집. 같은 브랜드의 웹사이트 캡처로 대체 검증하지 않음."
+    },
+    {
+      "id": "src-265",
+      "name": "resulthunter.com",
+      "canonical": "resulthunter.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-266",
+      "name": "The Fioneers",
+      "canonical": "The Fioneers",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-267",
+      "name": "Atolls US (Business Insider)",
+      "canonical": "Atolls US (Business Insider)",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-268",
+      "name": "dealsea",
+      "canonical": "dealsea",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-269",
+      "name": "Phia Desktop CE API",
+      "canonical": "Phia Desktop CE API",
+      "mode": "app_extension",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "앱·확장프로그램 전용 노출: 일반 웹 캡처로 전체 검증 불가"
+    },
+    {
+      "id": "src-270",
+      "name": "mydealz",
+      "canonical": "mydealz",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-271",
+      "name": "Linkby",
+      "canonical": "Linkby",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-272",
+      "name": "PCMag",
+      "canonical": "PCMag",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-273",
+      "name": "The School District of Philadelphia Employee Perks",
+      "canonical": "The School District of Philadelphia Employee Perks",
+      "mode": "membership",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "회원 자격·로그인 환경 필요"
+    },
+    {
+      "id": "src-274",
+      "name": "Deals of America",
+      "canonical": "Deals of America",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    },
+    {
+      "id": "src-275",
+      "name": "techbargains.com",
+      "canonical": "techbargains.com",
+      "mode": "unmapped",
+      "captureIds": [],
+      "mapping": "원문명 일치",
+      "note": "공식 도메인·가전 관련 지면 추가 매핑 필요"
+    }
+  ]
+}
