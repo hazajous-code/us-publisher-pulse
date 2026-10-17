@@ -1,0 +1,441 @@
+{
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-17T23:44:47.030Z",
+  "pages": [
+    {
+      "id": "lg-promotions",
+      "brand": "LG",
+      "label": "LG 전체 프로모션",
+      "url": "https://www.lg.com/us/promotions",
+      "date": "2026-10-18",
+      "usDate": "2026-10-17",
+      "capturedAt": "2026-10-17T23:44:12.905Z",
+      "country": "US",
+      "usIpVerified": true,
+      "status": "captured",
+      "promotions": [
+        {
+          "text": "FLASH SALE: This weekend only save up to 52% on select refrigerators, laundry, dishwashers and cooking appliances. Ends in",
+          "context": "Accessible Carousel FLASH SALE: This weekend only save up to 52% on select refrigerators, laundry, dishwashers and cooking appliances. Ends in 01 : 04 : 15 : 39 Shop Now",
+          "categories": [
+            "냉장고",
+            "세탁",
+            "식기세척기",
+            "조리"
+          ],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Top Deals: Save 30-50% on select home appliances",
+          "context": "- 01 : 04 : 15 : 41 Top Deals: Save 30-50% on select home appliances Shop Now -  Top Deals: Save 30-50% on select home appliances",
+          "categories": [],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "-  Top Deals: Save 30-50% on select home appliances",
+          "context": "Shop Now -  Top Deals: Save 30-50% on select home appliances Get up to $200 Virtual Visa® Prepaid Card with eligible TV purchase Shop Now",
+          "categories": [
+            "TV·오디오"
+          ],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Enjoy free or discounted subscriptions with LG Streaming Week",
+          "context": "-  Get up to $200 Virtual Visa® Prepaid Card with eligible TV purchase Enjoy free or discounted subscriptions with LG Streaming Week Explore Offers Questions about products or promotions? Connect with a live agent.",
+          "categories": [
+            "TV·오디오"
+          ],
+          "type": "무료 혜택",
+          "reviewed": false
+        },
+        {
+          "text": "Free Returns >",
+          "context": "Promotions Free Returns > Free Delivery > Installation Services >",
+          "categories": [],
+          "type": "무료 혜택",
+          "reviewed": false
+        },
+        {
+          "text": "Free Delivery >",
+          "context": "Free Returns > Free Delivery > Installation Services > Haul Away Your Old Appliance >",
+          "categories": [],
+          "type": "무료 혜택",
+          "reviewed": false
+        },
+        {
+          "text": "Explore top deals with 30-50% off select appliances",
+          "context": "VALID THROUGH 10/21/26 Explore top deals with 30-50% off select appliances Shop Now Explore top deals with 30-50% off select appliances",
+          "categories": [],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Save up to $2,000 on select Big Screen TVs—plus 10% back",
+          "context": "VALID THROUGH 10/18/26 Save up to $2,000 on select Big Screen TVs—plus 10% back Shop Now Save up to $2,000 on select Big Screen TVs—plus 10% back",
+          "categories": [],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Buy More, Save More: Up to $600 off when you bundle 2+ eligible appliances",
+          "context": "VALID THROUGH 10/21/26 Buy More, Save More: Up to $600 off when you bundle 2+ eligible appliances Shop Now Buy More, Save More: Up to $600 off when you bundle 2+ eligible appliances",
+          "categories": [],
+          "type": "번들",
+          "reviewed": false
+        },
+        {
+          "text": "Upgrade your workspace with up to 25% off select monitors and Buy More Save More",
+          "context": "VALID THROUGH 11/15/26 Upgrade your workspace with up to 25% off select monitors and Buy More Save More Shop Now Upgrade your workspace with up to 25% off select monitors and Buy More Save More",
+          "categories": [
+            "모니터·PC"
+          ],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Limited-Time: Save up to 52% on select home appliances",
+          "context": "FLASH SALE Limited-Time: Save up to 52% on select home appliances Shop Now ONLINE EXCLUSIVE",
+          "categories": [],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Save $200 on a eligible Washer & Dryer premium pair",
+          "context": "ONLINE EXCLUSIVE Save $200 on a eligible Washer & Dryer premium pair Shop Now VALID THROUGH 11/15/26",
+          "categories": [
+            "세탁"
+          ],
+          "type": "할인",
+          "reviewed": false
+        }
+      ],
+      "screenshot": "captures/official/2026-10-18/2026-10-17T23-44-12-629Z/lg-promotions.jpg",
+      "reviewed": false,
+      "title": "Promotions & Deals | Save on Electronics & Appliances | LG USA",
+      "httpStatus": 200,
+      "sha256": "3b0d0d0fdad0b705afe937398cfc847455da5a6cb2544412d6f46e119222ae50"
+    },
+    {
+      "id": "lg-home",
+      "brand": "LG",
+      "label": "LG US 메인",
+      "url": "https://www.lg.com/us/",
+      "date": "2026-10-18",
+      "usDate": "2026-10-17",
+      "capturedAt": "2026-10-17T23:44:21.836Z",
+      "country": "US",
+      "usIpVerified": true,
+      "status": "captured",
+      "promotions": [
+        {
+          "text": "FLASH SALE: This weekend only save up to 52% on select refrigerators, laundry, dishwashers and cooking appliances. Ends in",
+          "context": "Accessible Carousel FLASH SALE: This weekend only save up to 52% on select refrigerators, laundry, dishwashers and cooking appliances. Ends in 01 : 04 : 15 : 30 Shop Now",
+          "categories": [
+            "냉장고",
+            "세탁",
+            "식기세척기",
+            "조리"
+          ],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Top Deals: Save 30-50% on select home appliances",
+          "context": "- 01 : 04 : 15 : 30 Top Deals: Save 30-50% on select home appliances Shop Now -  Top Deals: Save 30-50% on select home appliances",
+          "categories": [],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "-  Top Deals: Save 30-50% on select home appliances",
+          "context": "Shop Now -  Top Deals: Save 30-50% on select home appliances Get up to $200 Virtual Visa® Prepaid Card with eligible TV purchase Shop Now",
+          "categories": [
+            "TV·오디오"
+          ],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Enjoy free or discounted subscriptions with LG Streaming Week",
+          "context": "-  Get up to $200 Virtual Visa® Prepaid Card with eligible TV purchase Enjoy free or discounted subscriptions with LG Streaming Week Explore Offers Questions about products or promotions? Connect with a live agent.",
+          "categories": [
+            "TV·오디오"
+          ],
+          "type": "무료 혜택",
+          "reviewed": false
+        },
+        {
+          "text": "Think big, gift bigger—up to $2,000 off select Big Screen TVs",
+          "context": "View All ProductsLearn More Think big, gift bigger—up to $2,000 off select Big Screen TVs Get a head start on holiday gifting with savings on select LG Big Screen TVs, plus 10% back with purchase. Shop now and enjoy free professional installation and your choice of a wall mount or stand. Shop Now",
+          "categories": [],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Get a head start on holiday gifting with savings on select LG Big Screen TVs, plus 10% back with purchase. Shop now and enjoy free professional installation and your choice of a wall mount or stand.",
+          "context": "Think big, gift bigger—up to $2,000 off select Big Screen TVs Get a head start on holiday gifting with savings on select LG Big Screen TVs, plus 10% back with purchase. Shop now and enjoy free professional installation and your choice of a wall mount or stand. Shop Now HOME, IN SYNC WITH YOU",
+          "categories": [],
+          "type": "무료 혜택",
+          "reviewed": false
+        },
+        {
+          "text": "Free Delivery >",
+          "context": "Shop Now Free Delivery > 14 Day Return > Extended Coverage >",
+          "categories": [],
+          "type": "무료 혜택",
+          "reviewed": false
+        },
+        {
+          "text": "48-Hour Flash Sale: Up to 52% off select home appliances",
+          "context": "Vacuum & A/C 48-Hour Flash Sale: Up to 52% off select home appliances Limited-Time Only: Explore savings that will be gone in a flash with 52% off select refrigerators, laundry, dishwashers and cooking appliances. Shop Now",
+          "categories": [
+            "냉장고",
+            "세탁",
+            "식기세척기",
+            "조리",
+            "청소·공기관리"
+          ],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Limited-Time Only: Explore savings that will be gone in a flash with 52% off select refrigerators, laundry, dishwashers and cooking appliances.",
+          "context": "48-Hour Flash Sale: Up to 52% off select home appliances Limited-Time Only: Explore savings that will be gone in a flash with 52% off select refrigerators, laundry, dishwashers and cooking appliances. Shop Now Up to 25% off select work monitors plus Buy More Save More",
+          "categories": [
+            "냉장고",
+            "세탁",
+            "식기세척기",
+            "조리",
+            "모니터·PC"
+          ],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Up to 25% off select work monitors plus Buy More Save More",
+          "context": "Shop Now Up to 25% off select work monitors plus Buy More Save More Exclusively here. Unmistakably LG. Save up to 35% on select LG TVs + up to $200 Virtual Visa® Prepaid Card",
+          "categories": [
+            "모니터·PC"
+          ],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Save up to 35% on select LG TVs + up to $200 Virtual Visa® Prepaid Card",
+          "context": "Exclusively here. Unmistakably LG. Save up to 35% on select LG TVs + up to $200 Virtual Visa® Prepaid Card Save 30-50% on top home appliances Shop with an LG Expert: FREE advice + deals on appliances + tech",
+          "categories": [],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Save 30-50% on top home appliances",
+          "context": "Save up to 35% on select LG TVs + up to $200 Virtual Visa® Prepaid Card Save 30-50% on top home appliances Shop with an LG Expert: FREE advice + deals on appliances + tech This is shopping made easy. Chat with a real, live expert and find the product that’s right for you + get exclusive deals.",
+          "categories": [],
+          "type": "할인",
+          "reviewed": false
+        }
+      ],
+      "screenshot": "captures/official/2026-10-18/2026-10-17T23-44-12-629Z/lg-home.jpg",
+      "reviewed": false,
+      "title": "LG Electronics & Home Appliances | Shop Now | LG USA",
+      "httpStatus": 200,
+      "sha256": "361e1dedd2d16bfab6a72392bddab9c4be7ecee05651cc9d8563d159c11bb555"
+    },
+    {
+      "id": "samsung-appliances",
+      "brand": "Samsung",
+      "label": "Samsung 가전 오퍼",
+      "url": "https://www.samsung.com/us/shop/home-appliance-and-smart-home-offers/",
+      "date": "2026-10-18",
+      "usDate": "2026-10-17",
+      "capturedAt": "2026-10-17T23:44:31.499Z",
+      "country": "US",
+      "usIpVerified": true,
+      "status": "captured",
+      "promotions": [
+        {
+          "text": "Save up to $1,500 on appliances. Plus, get a 2-year warranty on us≡ and pay your way for up to 24 months at 0% APR.⊕",
+          "context": "Get your home holiday ready with fall savings Save up to $1,500 on appliances. Plus, get a 2-year warranty on us≡ and pay your way for up to 24 months at 0% APR.⊕ Shop now Use Code LDY100OFF",
+          "categories": [],
+          "type": "보증",
+          "reviewed": false
+        },
+        {
+          "text": "$3,299.00 Save $1,000.00",
+          "context": "Original Price: $3,299.00 Save $1,000.00 Product Ratings : 4.4",
+          "categories": [],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "$3,399.00 Save $1,100.00",
+          "context": "Original Price: $3,399.00 Save $1,100.00 Product Ratings : 4.5",
+          "categories": [],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "$1,399.00 Save $400.00",
+          "context": "Original Price: $1,399.00 Save $400.00 Product Ratings : 4.2",
+          "categories": [],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "$5,249.00 Save $1,450.00",
+          "context": "Original Price: $5,249.00 Save $1,450.00 Product Ratings : 4.6",
+          "categories": [],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Save up to an extra $1,000r",
+          "context": "Buy more, save more Save up to an extra $1,000r Build the ultimate smart home and save big when you buy more than one qualifying home product. Shop now",
+          "categories": [],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Free 3-piece cookware set",
+          "context": "Shop now Free 3-piece cookware set Get a Circulon® Induction Cookware set on us* When you buy a select cooktop or range. Offer to be redeemed after purchase",
+          "categories": [
+            "조리"
+          ],
+          "type": "무료 혜택",
+          "reviewed": false
+        },
+        {
+          "text": "Save an extra $169 on select cooktops",
+          "context": "Installation credit Save an extra $169 on select cooktops Use code 169OFF at checkout. Put savings towards cost of installation Shop now",
+          "categories": [
+            "조리"
+          ],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Save an extra $199.99 on select wall ovens",
+          "context": "Installation credit Save an extra $199.99 on select wall ovens Use code 199OFF at checkout. Put savings towards cost of installation. Shop now",
+          "categories": [
+            "조리"
+          ],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Save an extra $99 on select dishwashers",
+          "context": "Installation credit Save an extra $99 on select dishwashers Use code 99OFF at checkout. Put savings towards cost of installation. Shop now",
+          "categories": [
+            "세탁",
+            "식기세척기"
+          ],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "$2,699.00 Save $700.00",
+          "context": "Original Price: $2,699.00 Save $700.00 Product Ratings : 3.9",
+          "categories": [],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "$1,249.00 Save $350.00",
+          "context": "Original Price: $1,249.00 Save $350.00 Product Ratings : 4.3",
+          "categories": [],
+          "type": "할인",
+          "reviewed": false
+        }
+      ],
+      "screenshot": "captures/official/2026-10-18/2026-10-17T23-44-12-629Z/samsung-appliances.jpg",
+      "reviewed": false,
+      "title": "Appliance Deals and Offers | Samsung US",
+      "httpStatus": 200,
+      "sha256": "30fdb4100c00bae40d84370e58e2b5d0c13da2d537129a3f7b502b9b2d38efbc"
+    },
+    {
+      "id": "samsung-promotions",
+      "brand": "Samsung",
+      "label": "Samsung 리베이트·신청형 혜택",
+      "url": "https://www.samsung.com/us/promotions/",
+      "date": "2026-10-18",
+      "usDate": "2026-10-17",
+      "capturedAt": "2026-10-17T23:44:39.539Z",
+      "country": "US",
+      "usIpVerified": true,
+      "status": "captured",
+      "promotions": [
+        {
+          "text": "2026 Q4 Samsung Smart Appliance Extended Warranty",
+          "context": "LEARN MORE 2026 Q4 Samsung Smart Appliance Extended Warranty Valid Purchase Dates: 10/01/2026 - 12/31/2026 Valid Submission Dates: 10/1/2026 – 1/31/2027",
+          "categories": [],
+          "type": "보증",
+          "reviewed": false
+        },
+        {
+          "text": "Receive a one (1) year Limited Warranty Extension when you purchase one (1) or more qualifying, SmartThings™ enabled, Samsung appliances. Terms and conditions apply.",
+          "context": "Valid Submission Dates: 10/1/2026 – 1/31/2027 Receive a one (1) year Limited Warranty Extension when you purchase one (1) or more qualifying, SmartThings™ enabled, Samsung appliances. Terms and conditions apply. REGISTER NOW LEARN MORE",
+          "categories": [],
+          "type": "보증",
+          "reviewed": false
+        },
+        {
+          "text": "We guarantee your new Samsung Front Control Slide-In Range will fit your 30\" Freestanding Range cutout, or we'll give you up to $100 to cover costs for countertop modification by a professional. Terms and conditions apply.",
+          "context": "Valid Submission Dates: 10/1/2026 – 1/31/2027 We guarantee your new Samsung Front Control Slide-In Range will fit your 30\" Freestanding Range cutout, or we'll give you up to $100 to cover costs for countertop modification by a professional. Terms and conditions apply. REGISTER NOW LEARN MORE",
+          "categories": [
+            "조리"
+          ],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Get up to 50% off* on a The Frame Customizable Bezel in Modern White, Modern Teak, or Modern Brown when you purchase a 2026 The Frame or The Frame Pro TV (qualifying screen sizes: 55”/65”/75”/85”).",
+          "context": "Must Redeem by date: 12/31/2027 Get up to 50% off* on a The Frame Customizable Bezel in Modern White, Modern Teak, or Modern Brown when you purchase a 2026 The Frame or The Frame Pro TV (qualifying screen sizes: 55”/65”/75”/85”). To unlock your reward: Step 1: Purchase a qualified The Frame/The Frame Pro TV within the valid purchase date.",
+          "categories": [
+            "TV·오디오"
+          ],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "Step 3: Once the TV is registered, you will receive an email within 7 days after registration with your special 50% off bezel promo code.",
+          "context": "If you need to manually register your TV after initial setup or to verify your TV registration status in general, visit the following link and sign in to your Samsung Account: https://www.samsung.com/us/support/register-product/ Step 3: Once the TV is registered, you will receive an email within 7 days after registration with your special 50% off bezel promo code. Check your spam folder if you do not see the email in your inbox. Step 4: Visit Samsung.com with your Samsung Account login and add an eligible bezel to cart. Apply your special bezel promo code during the checkout process.",
+          "categories": [
+            "TV·오디오"
+          ],
+          "type": "할인",
+          "reviewed": false
+        },
+        {
+          "text": "2026 Samsung Smart Appliance Extended Warranty Offer",
+          "context": "Learn more 2026 Samsung Smart Appliance Extended Warranty Offer Valid Purchase Dates: 07/09/2026 - 09/30/2026 Valid Submission Dates: 7/09/2026 – 10/30/2026",
+          "categories": [],
+          "type": "보증",
+          "reviewed": false
+        },
+        {
+          "text": "Receive a one (1) year Limited Warranty Extension when you purchase one (1) or more qualifying, SmartThings™ enabled, Samsung appliances. Terms and conditions apply.",
+          "context": "Valid Submission Dates: 7/09/2026 – 10/30/2026 Receive a one (1) year Limited Warranty Extension when you purchase one (1) or more qualifying, SmartThings™ enabled, Samsung appliances. Terms and conditions apply. Learn more Samsung Regional Power Pair Promo",
+          "categories": [],
+          "type": "보증",
+          "reviewed": false
+        },
+        {
+          "text": "Warranty Information",
+          "context": "Manual & Software Warranty Information Service Center Request a Repair",
+          "categories": [],
+          "type": "보증",
+          "reviewed": false
+        }
+      ],
+      "screenshot": "captures/official/2026-10-18/2026-10-17T23-44-12-629Z/samsung-promotions.jpg",
+      "reviewed": false,
+      "title": "Samsung Promotions | Redeem Retail Offers | Samsung US | Samsung US",
+      "httpStatus": 200,
+      "sha256": "92ef5efe66228d430398be74cfb2ef160f0e84beef5a848caca822ff261fd658"
+    }
+  ]
+}
